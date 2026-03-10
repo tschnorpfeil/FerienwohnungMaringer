@@ -7,13 +7,10 @@
     left: 0;
     right: 0;
     z-index: 100;
-    /* Safari iOS 26+ Liquid Glass: samples background-color for status bar.
-       Color matched to hero image top edge + overlay blend.
-       background-image paints ON TOP, keeping nav visually transparent. */
-    background-color: #403722;
-    background-image: linear-gradient(transparent, transparent);
+    /* Safari iOS 26+ controls status bar color via Liquid Glass — not overridable */
+    background: transparent;
     border-bottom: 1px solid transparent;
-    transition: background-image 0.4s ease, background-color 0.4s ease, border-bottom-color 0.4s ease, backdrop-filter 0.4s ease;
+    transition: background 0.4s ease, border-bottom-color 0.4s ease, backdrop-filter 0.4s ease;
     /* Respect Dynamic Island / notch */
     padding-top: env(safe-area-inset-top, 0px);
     padding-left: env(safe-area-inset-left, 0px);
@@ -21,8 +18,7 @@
 }
 
 .main-nav.is-scrolled {
-    background-color: rgba(253, 251, 250, 0.95);
-    background-image: linear-gradient(rgba(253, 251, 250, 0.95), rgba(253, 251, 250, 0.95));
+    background: rgba(253, 251, 250, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom-color: var(--color-border);
