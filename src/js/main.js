@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function openLightbox(index) {
         currentLightboxIndex = index;
-        lightboxImg.src = galleryImages[index].src;
+        lightboxImg.src = galleryImages[index].currentSrc || galleryImages[index].src;
         lightbox.classList.add('active');
         document.body.style.overflow = 'hidden';
     }
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function navigateLightbox(direction) {
         currentLightboxIndex = (currentLightboxIndex + direction + galleryImages.length) % galleryImages.length;
-        lightboxImg.src = galleryImages[currentLightboxIndex].src;
+        lightboxImg.src = galleryImages[currentLightboxIndex].currentSrc || galleryImages[currentLightboxIndex].src;
     }
 
     if (galleryImages.length > 0 && lightbox) {

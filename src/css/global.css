@@ -96,7 +96,6 @@ section {
 }
 
 /* Skip rendering off-screen sections until scrolled into view */
-.gallery-section,
 .testimonials-section,
 .pricing-section,
 .faq-section,
