@@ -51,8 +51,8 @@
           "@type": "VacationRental",
           "@id": "https://www.ferienwohnung-maringer.de/#vacation-rental",
           "identifier": "FW-MARINGER-01",
+          "additionalType": "Apartment",
           "name": "Ferienwohnung Maringer Cochem",
-          "alternateName": ["Ferienwohnung Cochem Maringer", "Maringer Ferienwohnung Mosel"],
           "description": "Zentrale Ferienwohnung in Cochem an der Mosel mit Panoramablick auf die Reichsburg Cochem und das Moseltal. Sonniger Balkon, private Terrasse, kostenloser Parkplatz und High-Speed WLAN. Ideal für Paare, Familien, Moselliebhaber und Workation. Direkt beim Gastgeber buchen — ohne Portalgebühren.",
           "url": "https://www.ferienwohnung-maringer.de",
           "image": [
@@ -73,60 +73,72 @@
             "postalCode": "56812",
             "addressCountry": "DE"
           },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 50.146,
-            "longitude": 7.167
+          "latitude": 50.14600,
+          "longitude": 7.16700,
+          "checkinTime": "15:00:00+01:00",
+          "checkoutTime": "10:00:00+01:00",
+          "knowsLanguage": ["de-DE", "en-US"],
+          "containsPlace": {
+            "@type": "Accommodation",
+            "additionalType": "EntirePlace",
+            "occupancy": {
+              "@type": "QuantitativeValue",
+              "value": 3
+            },
+            "bed": [
+              { "@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Double" },
+              { "@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Single" }
+            ],
+            "numberOfBedrooms": 1,
+            "numberOfBathroomsTotal": 1,
+            "numberOfRooms": 3,
+            "floorSize": {
+              "@type": "QuantitativeValue",
+              "value": 65,
+              "unitCode": "MTK"
+            },
+            "amenityFeature": [
+              { "@type": "LocationFeatureSpecification", "name": "balcony", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "patio", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "kitchen", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "ovenStove", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "microwave", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "heating", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "tv", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "wifi", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "petsAllowed", "value": false },
+              { "@type": "LocationFeatureSpecification", "name": "smokingAllowed", "value": false },
+              { "@type": "LocationFeatureSpecification", "name": "parkingType", "value": "Free" },
+              { "@type": "LocationFeatureSpecification", "name": "internetType", "value": "Free" }
+            ],
+            "petsAllowed": false,
+            "smokingAllowed": false
           },
-          "telephone": "+49-2671-989089",
-          "email": "w.maringer43@web.de",
-          "checkinTime": "15:00",
-          "checkoutTime": "10:00",
-          "numberOfRooms": 3,
-          "occupancy": {
-            "@type": "QuantitativeValue",
-            "maxValue": 3,
-            "unitText": "persons (2 Erwachsene + 1 Kind)"
-          },
-          "amenityFeature": [
-            { "@type": "LocationFeatureSpecification", "name": "Balkon mit Burgblick", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Private Terrasse mit Moselblick", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Kostenloser Parkplatz", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "High-Speed WLAN", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Bettwäsche & Handtücher inklusive", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Fahrradstellplatz", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Endreinigung inklusive", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Gäste-Ticket ÖPNV", "value": true }
-          ],
-          "petsAllowed": false,
-          "smokingAllowed": false,
-          "tourBookingPage": "https://www.ferienwohnung-maringer.de/#kontakt",
-          "containedInPlace": {
-            "@type": "City",
-            "name": "Cochem",
-            "containedInPlace": {
-              "@type": "AdministrativeArea",
-              "name": "Mosel, Rheinland-Pfalz, Deutschland"
-            }
-          },
-          "containsPlace": [
-            { "@type": "Accommodation", "name": "Schlafzimmer" },
-            { "@type": "Accommodation", "name": "Wohnzimmer" },
-            { "@type": "Accommodation", "name": "Badezimmer" }
-          ],
           "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "bestRating": "5",
-            "ratingCount": "17"
+            "ratingValue": 5.0,
+            "bestRating": 5,
+            "ratingCount": 17,
+            "reviewCount": 3
           },
           "review": [
             {
               "@type": "Review",
               "author": { "@type": "Person", "name": "Anna & Christian" },
-              "datePublished": "2023-08-15",
-              "reviewBody": "Wir hatten wunderbar entspannte Tage in dieser Ferienwohnung. Die Terrasse mit Blick auf die Reichsburg ist das absolute Highlight.",
-              "reviewRating": { "@type": "Rating", "bestRating": "5", "ratingValue": "5", "worstRating": "1" }
+              "datePublished": "2024-08-15",
+              "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Tobias" },
+              "datePublished": "2024-06-20",
+              "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Lisa" },
+              "datePublished": "2024-09-10",
+              "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
             }
           ]
         },
