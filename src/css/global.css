@@ -17,6 +17,11 @@ html {
     display: none;
 }
 
+/* Dark root for iOS status bar / Dynamic Island blending */
+html {
+    background-color: #2a2825;
+}
+
 body {
     font-family: var(--font-body);
     color: var(--color-text);
