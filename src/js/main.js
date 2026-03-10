@@ -139,7 +139,25 @@ document.addEventListener('DOMContentLoaded', () => {
         scrollBtn.addEventListener('click', () => {
             const factsSection = document.getElementById('facts');
             if (factsSection) {
-                factsSection.scrollIntoView({ behavior: 'smooth' });
+                const targetY = factsSection.getBoundingClientRect().top + window.scrollY;
+                const startY = window.scrollY;
+                const distance = targetY - startY;
+                const duration = 1200; // ms — slower, smoother scroll
+                let startTime = null;
+
+                function easeInOutCubic(t) {
+                    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+                }
+
+                function step(timestamp) {
+                    if (!startTime) startTime = timestamp;
+                    const elapsed = timestamp - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    window.scrollTo(0, startY + distance * easeInOutCubic(progress));
+                    if (progress < 1) requestAnimationFrame(step);
+                }
+
+                requestAnimationFrame(step);
             }
         });
     }
