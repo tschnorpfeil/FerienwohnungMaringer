@@ -16,7 +16,8 @@ export default defineConfig({
         hund: resolve(__dirname, 'spokes/ferienwohnung-cochem-mit-hund.html'),
         wetter: resolve(__dirname, 'spokes/wetter-cochem-beste-reisezeit.html'),
         restaurants: resolve(__dirname, 'spokes/restaurants-weingueter-cochem.html'),
-        reichsburg: resolve(__dirname, 'spokes/reichsburg-cochem-tickets-fuhrung.html')
+        reichsburg: resolve(__dirname, 'spokes/reichsburg-cochem-tickets-fuhrung.html'),
+        ueberuns: resolve(__dirname, 'spokes/ueber-uns-gastgeber.html')
       }
     }
   }
