@@ -57,15 +57,15 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('js-revealed');
-                // Clean up stagger delay after animation so it doesn't affect hover transitions
-                entry.target.addEventListener('transitionend', function handler() {
+                // Clean up after animation completes (500ms transition + delay)
+                const delay = parseFloat(entry.target.style.transitionDelay) || 0;
+                setTimeout(() => {
                     entry.target.style.transitionDelay = '';
-                    entry.target.removeEventListener('transitionend', handler);
-                }, { once: true });
+                }, (delay + 600));
                 revealObserver.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    }, { threshold: 0.15 });
 
     document.querySelectorAll('.js-reveal').forEach(el => revealObserver.observe(el));
 
