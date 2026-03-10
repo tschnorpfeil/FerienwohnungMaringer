@@ -23,7 +23,7 @@
     <meta property="og:description"
         content="Zentrale Ferienwohnung in Cochem mit Panoramablick auf Reichsburg & Mosel. Balkon, Terrasse, WLAN und Parkplatz inklusive. Direkt beim Gastgeber buchen." />
     <meta property="og:url" content="https://www.ferienwohnung-maringer.de/" />
-    <meta property="og:image" content="https://www.ferienwohnung-maringer.de/assets/images/hero-bg.webp" />
+    <meta property="og:image" content="https://www.ferienwohnung-maringer.de/assets/images/hero-bg.avif" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="de_DE" />
@@ -34,7 +34,7 @@
     <meta name="twitter:title" content="Ferienwohnung Cochem mit Burgblick & Moselblick | Maringer" />
     <meta name="twitter:description"
         content="Zentrale Ferienwohnung in Cochem mit Panoramablick auf Reichsburg & Mosel. Direkt beim Gastgeber buchen." />
-    <meta name="twitter:image" content="https://www.ferienwohnung-maringer.de/assets/images/hero-bg.webp" />
+    <meta name="twitter:image" content="https://www.ferienwohnung-maringer.de/assets/images/hero-bg.avif" />
 
     <!-- GEO META TAGS (für lokale Suche) -->
     <meta name="geo.region" content="DE-RP" />
@@ -55,9 +55,9 @@
           "description": "Zentrale Ferienwohnung in Cochem an der Mosel mit Panoramablick auf die Reichsburg Cochem und das Moseltal. Sonniger Balkon, private Terrasse, kostenloser Parkplatz und High-Speed WLAN. Ideal für Paare, Familien, Moselliebhaber und Workation. Direkt beim Gastgeber buchen — ohne Portalgebühren.",
           "url": "https://www.ferienwohnung-maringer.de",
           "image": [
-            "https://www.ferienwohnung-maringer.de/assets/images/hero-bg.webp",
-            "https://www.ferienwohnung-maringer.de/assets/images/gallery-1.webp",
-            "https://www.ferienwohnung-maringer.de/assets/images/gallery-5.webp"
+            "https://www.ferienwohnung-maringer.de/assets/images/hero-bg.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/gallery-1.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/gallery-5.avif"
           ],
           "address": {
             "@type": "PostalAddress",
@@ -254,8 +254,9 @@
         <section id="hero" class="hero-section">
             <!-- Background Image (separate for zoom/parallax) -->
             <div class="hero-bg js-hero-zoom" data-parallax="0.3" data-parallax-dir="1">
-                <img src="/assets/images/hero-bg.webp"
-                    alt="Panoramablick auf die Reichsburg Cochem und das Moseltal von der Ferienwohnung Maringer" />
+                <img src="/assets/images/hero-bg.avif"
+                    alt="Panoramablick auf die Reichsburg Cochem und das Moseltal von der Ferienwohnung Maringer"
+                    fetchpriority="high" />
             </div>
             <!-- Subtle gradient overlay for text readability -->
             <div class="hero-overlay"></div>
@@ -351,44 +352,75 @@
 
                 <div class="gallery-grid">
                     <div class="gallery-item js-reveal">
-                        <img src="/assets/images/gallery-1.webp" alt="Wohnbereich der Ferienwohnung Cochem Maringer"
-                            loading="lazy">
-                        <span class="gallery-caption">Gemütlicher Wohnbereich</span>
+                        <picture>
+                            <source srcset="/assets/images/Burgblick-Fensterblick.avif" type="image/avif">
+                            <img src="/assets/images/Burgblick-Fensterblick.webp"
+                                alt="Panoramablick aus dem Fenster der Ferienwohnung auf die Reichsburg Cochem und das Moseltal"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Burgblick aus der Wohnung</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 50ms">
-                        <img src="/assets/images/gallery-2.webp"
-                            alt="Gemütliches Schlafzimmer in der Ferienwohnung Cochem" loading="lazy">
-                        <span class="gallery-caption">Schlafzimmer mit Doppelbett</span>
+                        <picture>
+                            <source srcset="/assets/images/Balkon.avif" type="image/avif">
+                            <img src="/assets/images/Balkon.webp"
+                                alt="Sonniger Balkon der Ferienwohnung Maringer mit Blick auf Cochem und die Mosel"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Balkon mit Panoramablick</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 100ms">
-                        <img src="/assets/images/gallery-3.webp" alt="Moderne Küche der Ferienwohnung Maringer Cochem"
-                            loading="lazy">
-                        <span class="gallery-caption">Voll ausgestattete Küche</span>
+                        <picture>
+                            <source srcset="/assets/images/Esszimmer.avif" type="image/avif">
+                            <img src="/assets/images/Esszimmer.webp"
+                                alt="Heller Essbereich der Ferienwohnung Cochem mit Esstisch und Tageslicht"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Esszimmer</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 150ms">
-                        <img src="/assets/images/gallery-4.webp" alt="Helles Badezimmer der Unterkunft in Cochem"
-                            loading="lazy">
-                        <span class="gallery-caption">Helles Badezimmer</span>
+                        <picture>
+                            <source srcset="/assets/images/Esszimmer2.avif" type="image/avif">
+                            <img src="/assets/images/Esszimmer2.webp"
+                                alt="Zweite Ansicht des Essbereichs mit Blick ins Wohnzimmer in der Ferienwohnung Cochem"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Wohn- & Essbereich</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 200ms">
-                        <img src="/assets/images/gallery-5.webp"
-                            alt="Balkon mit Blick auf die Reichsburg Cochem und die Mosel" loading="lazy">
-                        <span class="gallery-caption">Balkon mit Burgblick</span>
+                        <picture>
+                            <source srcset="/assets/images/Kueche.avif" type="image/avif">
+                            <img src="/assets/images/Kueche.webp"
+                                alt="Moderne, voll ausgestattete Küche in der Ferienwohnung Maringer Cochem"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Voll ausgestattete Küche</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 250ms">
-                        <img src="/assets/images/gallery-6.webp"
-                            alt="Esstisch mit Moselblick in der Ferienwohnung Cochem" loading="lazy">
-                        <span class="gallery-caption">Essbereich mit Moselblick</span>
+                        <picture>
+                            <source srcset="/assets/images/Bad.avif" type="image/avif">
+                            <img src="/assets/images/Bad.webp"
+                                alt="Sauberes, modernes Badezimmer mit Dusche in der Ferienwohnung Cochem an der Mosel"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Modernes Badezimmer</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 300ms">
-                        <img src="/assets/images/gallery-7.webp"
-                            alt="Terrasse der Ferienwohnung Maringer mit Panoramablick Cochem" loading="lazy">
-                        <span class="gallery-caption">Sonnige Terrasse</span>
+                        <picture>
+                            <source srcset="/assets/images/Schlafzimmer.avif" type="image/avif">
+                            <img src="/assets/images/Schlafzimmer.webp"
+                                alt="Gemütliches Schlafzimmer mit Doppelbett in der Ferienwohnung Maringer Cochem"
+                                loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Schlafzimmer</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 350ms">
-                        <img src="/assets/images/gallery-8.webp"
-                            alt="Außenansicht des Ferienhauses in Cochem an der Mosel" loading="lazy">
-                        <span class="gallery-caption">Außenansicht & Garten</span>
+                        <picture>
+                            <source srcset="/assets/images/Schlafzimmer2.avif" type="image/avif">
+                            <img src="/assets/images/Schlafzimmer2.webp"
+                                alt="Schlafzimmer der Ferienwohnung Cochem aus anderer Perspektive" loading="lazy">
+                        </picture>
+                        <span class="gallery-caption">Schlafzimmer</span>
                     </div>
                 </div>
             </div>
@@ -653,6 +685,60 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Section: Cochem Guide (Hub → Spoke Internal Links — Critical for Topical Authority) -->
+        <section id="cochem-guide" class="facts-section" style="background: var(--color-surface);">
+            <div class="container">
+                <div class="text-center js-reveal">
+                    <h2>Cochem entdecken: Ihr Urlaubsguide</h2>
+                    <p>Wir kennen Cochem wie unsere Westentasche. Stöbern Sie in unseren Insider-Guides für den
+                        perfekten Moselurlaub.</p>
+                </div>
+
+                <ul class="facts-list facts-grid" style="list-style: none; padding: 0;">
+                    <li class="fact-card js-reveal">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🅿️</span>
+                        <h3 class="fact-title"><a href="/spokes/cochem-parken.html"
+                                style="color: inherit; text-decoration: none;">Parken in Cochem</a></h3>
+                        <p class="fact-desc">Wo parkt man stressfrei? Tipps zu Parkgebühren und warum unser kostenloser
+                            Privatparkplatz Gold wert ist.</p>
+                        <a href="/spokes/cochem-parken.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                    </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 100ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🏰</span>
+                        <h3 class="fact-title"><a href="/spokes/reichsburg-cochem-tickets-fuhrung.html"
+                                style="color: inherit; text-decoration: none;">Die Reichsburg Cochem</a></h3>
+                        <p class="fact-desc">Tickets, Führungen, Öffnungszeiten — und warum der schönste Blick auf die
+                            Burg von unserem Balkon ist.</p>
+                        <a href="/spokes/reichsburg-cochem-tickets-fuhrung.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                    </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 200ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🌦️</span>
+                        <h3 class="fact-title"><a href="/spokes/wetter-cochem-beste-reisezeit.html"
+                                style="color: inherit; text-decoration: none;">Wetter & Beste Reisezeit</a></h3>
+                        <p class="fact-desc">Wann lohnt sich die Mosel am meisten? Unser ehrlicher Jahreszeiten-Guide
+                            von Frühling bis Winter.</p>
+                        <a href="/spokes/wetter-cochem-beste-reisezeit.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                    </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 300ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🍷</span>
+                        <h3 class="fact-title"><a href="/spokes/restaurants-weingueter-cochem.html"
+                                style="color: inherit; text-decoration: none;">Restaurants & Weingüter</a></h3>
+                        <p class="fact-desc">Die besten Lokale und Winzer in Cochem — persönliche Empfehlungen für
+                            Genießer.</p>
+                        <a href="/spokes/restaurants-weingueter-cochem.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                    </li>
+                </ul>
             </div>
         </section>
 

@@ -1,0 +1,8 @@
+# Ferienwohnung Maringer — Crawl Instructions
+# https://www.ferienwohnung-maringer.de
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.ferienwohnung-maringer.de/sitemap.xml
