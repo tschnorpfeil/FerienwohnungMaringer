@@ -1,0 +1,58 @@
+/* variables.css - The Maringer Theme (Bespoke Luxury) */
+
+/* variables.css - The Maringer Theme (2026 Editorial Minimalism) */
+
+/* variables.css - The Maringer Theme (Earthy Premium / Warm Modernism) */
+
+:root {
+  /* Earthy Premium Palette - Warm, inviting, but highly structured */
+  --color-primary: #3d4a3e;
+  /* Deep Forest/Sage Green - very elegant */
+  --color-primary-hover: #29332a;
+  --color-secondary: #c9b18f;
+  /* Warm Sand / Subtle Gold */
+
+  --color-background: #FDFBFA;
+  /* Warm Oatmeal / Alabaster (Not stark white) */
+  --color-surface: #FFFFFF;
+  --color-surface-tint: #F4EBE0;
+  /* Very subtle warm sand tint for depth */
+
+  --color-text: #2A2825;
+  /* Deep warm stone/graphite (much softer than black) */
+  --color-text-light: #6A655F;
+  /* Warm grey for secondary info */
+  --color-border: #E8E5DF;
+  /* Warm subtle border */
+
+  /* Typography - Clean forms, but softened by the warm colors */
+  --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing - Breathable and luxurious */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Container Widths */
+  --container-width-max: 1440px;
+  --container-width-text: 800px;
+
+  /* Formgebung: Soft, organic "Pebble" corners */
+  --border-radius-sm: 12px;
+  --border-radius-md: 24px;
+  --border-radius-lg: 32px;
+  /* Very generous curves for images and block elements */
+
+  /* Extremely soft, warm shadows */
+  --shadow-sm: 0 4px 15px rgba(42, 40, 37, 0.04);
+  --shadow-md: 0 12px 30px rgba(42, 40, 37, 0.06);
+  --shadow-lg: 0 30px 60px rgba(42, 40, 37, 0.08);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}

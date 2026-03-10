@@ -1,0 +1,273 @@
+/* testimonials.css - Guest Reviews & Map Section */
+
+/* ===== TESTIMONIALS SECTION ===== */
+.testimonials-section {
+    background-color: var(--color-surface-tint);
+    padding: var(--spacing-xl) 0;
+}
+
+.testimonials-section h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-xs);
+}
+
+.testimonials-section .text-center p {
+    text-align: center;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Aggregate Rating Banner */
+.aggregate-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 32px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 100px;
+    margin: 0 auto var(--spacing-lg);
+    width: fit-content;
+    box-shadow: var(--shadow-sm);
+}
+
+.aggregate-rating-stars {
+    color: #E8A838;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.aggregate-rating-text {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+.aggregate-rating-count {
+    font-weight: 400;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+}
+
+/* Testimonial Grid */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+/* Testimonial Card */
+.testimonial-card {
+    position: relative;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal), border-color 0.3s ease;
+    overflow: hidden;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-secondary);
+}
+
+/* Decorative quote mark */
+.testimonial-quote-mark {
+    position: absolute;
+    top: 20px;
+    left: var(--spacing-md);
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--color-secondary);
+    opacity: 0.3;
+    font-family: Georgia, serif;
+    pointer-events: none;
+}
+
+.testimonial-stars {
+    color: #E8A838;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-bottom: var(--spacing-md);
+}
+
+.testimonial-author {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-text);
+}
+
+/* Bottom accent bar on hover */
+.testimonial-card-accent {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: var(--color-secondary);
+    transition: width 0.5s ease;
+}
+
+.testimonial-card:hover .testimonial-card-accent {
+    width: 100%;
+}
+
+/* ===== MAP SECTION ===== */
+.map-section {
+    background-color: var(--color-surface);
+    padding: var(--spacing-xl) 0;
+}
+
+.map-section h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-xs);
+}
+
+.map-section .text-center p {
+    text-align: center;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-lg);
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-md);
+    aspect-ratio: 16 / 9;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.map-badges {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.map-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: var(--color-surface-tint);
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.map-badge-icon {
+    font-size: 1.1rem;
+}
+
+/* ===== AVAILABILITY CTA ===== */
+.availability-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: var(--spacing-md);
+    padding: 20px var(--spacing-md);
+    background: var(--color-surface-tint);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all var(--transition-fast);
+}
+
+.availability-cta:hover {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.availability-cta-icon {
+    font-size: 1.3rem;
+}
+
+/* ===== GALLERY CAPTIONS ===== */
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 16px;
+    background: linear-gradient(to top, rgba(42, 40, 37, 0.7) 0%, transparent 100%);
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity var(--transition-fast), transform var(--transition-fast);
+    pointer-events: none;
+    border-radius: 0 0 var(--border-radius-md) var(--border-radius-md);
+    z-index: 2;
+}
+
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .aggregate-rating {
+        flex-wrap: wrap;
+        padding: 14px 24px;
+    }
+
+    .map-container {
+        aspect-ratio: 4 / 3;
+        border-radius: var(--border-radius-sm);
+    }
+
+    .map-badges {
+        gap: var(--spacing-xs);
+    }
+
+    /* Always show captions on mobile */
+    .gallery-caption {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

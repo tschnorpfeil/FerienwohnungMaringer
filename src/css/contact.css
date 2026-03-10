@@ -1,0 +1,272 @@
+/* contact.css - Premium Contact & Footer */
+
+.contact-section {
+    background-color: var(--color-surface-tint);
+    color: var(--color-text);
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+}
+
+.contact-section h2 {
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.host-intro {
+    max-width: 600px;
+    margin: 0 auto var(--spacing-lg);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-text-light);
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+}
+
+.contact-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 32px;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text) !important;
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: var(--border-radius-sm);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.contact-btn svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-text);
+    transition: fill var(--transition-fast);
+    flex-shrink: 0;
+}
+
+/* Progress bar on hover */
+.contact-btn-progress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: var(--color-primary);
+    transition: width 0.4s ease;
+}
+
+.contact-btn:hover .contact-btn-progress {
+    width: 100%;
+}
+
+.contact-btn:hover {
+    background-color: var(--color-primary);
+    color: white !important;
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.contact-btn:hover svg {
+    fill: white;
+}
+
+/* WhatsApp specific hover */
+.contact-btn.whatsapp:hover {
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+/* ===== FOOTER ===== */
+.main-footer {
+    background-color: var(--color-primary-hover);
+    color: rgba(255, 255, 255, 0.7);
+    padding: var(--spacing-xl) 0 var(--spacing-lg);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.footer-brand {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+}
+
+.footer-tagline {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.footer-col h4 {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer-address {
+    font-style: normal;
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+.footer-address a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-address a:hover {
+    color: white;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 8px;
+}
+
+.footer-nav a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--spacing-md);
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer Mobile */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== LEGAL SECTIONS (Impressum / Datenschutz) — Collapsible ===== */
+.legal-section {
+    background-color: var(--color-surface);
+    padding: var(--spacing-lg) 0;
+    border-top: 1px solid var(--color-border);
+}
+
+.legal-container {
+    max-width: 800px;
+}
+
+.legal-container details {
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-sm);
+    overflow: hidden;
+}
+
+.legal-container summary {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-light);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+
+.legal-container summary:hover {
+    color: var(--color-text);
+}
+
+.legal-container summary::-webkit-details-marker {
+    display: none;
+}
+
+.legal-container summary::after {
+    content: '+';
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--color-text-light);
+    transition: transform 0.3s ease;
+}
+
+.legal-container details[open] summary::after {
+    content: '−';
+}
+
+.legal-content {
+    padding: 0 var(--spacing-md) var(--spacing-md);
+}
+
+.legal-section h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-text);
+}
+
+.legal-section p {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.legal-section ul {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin: var(--spacing-xs) 0 var(--spacing-sm) var(--spacing-md);
+    line-height: 1.7;
+}
+
+.legal-section a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
