@@ -50,6 +50,8 @@
         {
           "@type": "VacationRental",
           "@id": "https://www.ferienwohnung-maringer.de/#vacation-rental",
+          "identifier": "FW-MARINGER-01",
+          "additionalType": "https://schema.org/Apartment",
           "name": "Ferienwohnung Maringer Cochem",
           "alternateName": ["Ferienwohnung Cochem Maringer", "Maringer Ferienwohnung Mosel"],
           "description": "Zentrale Ferienwohnung in Cochem an der Mosel mit Panoramablick auf die Reichsburg Cochem und das Moseltal. Sonniger Balkon, private Terrasse, kostenloser Parkplatz und High-Speed WLAN. Ideal für Paare, Familien, Moselliebhaber und Workation. Direkt beim Gastgeber buchen — ohne Portalgebühren.",
@@ -57,7 +59,12 @@
           "image": [
             "https://www.ferienwohnung-maringer.de/assets/images/hero-bg.avif",
             "https://www.ferienwohnung-maringer.de/assets/images/Burgblick-Fensterblick.avif",
-            "https://www.ferienwohnung-maringer.de/assets/images/Balkon.avif"
+            "https://www.ferienwohnung-maringer.de/assets/images/Balkon.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/Esszimmer.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/Esszimmer2.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/Kueche.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/Bad.avif",
+            "https://www.ferienwohnung-maringer.de/assets/images/Schlafzimmer.avif"
           ],
           "address": {
             "@type": "PostalAddress",
@@ -102,7 +109,27 @@
               "@type": "AdministrativeArea",
               "name": "Mosel, Rheinland-Pfalz, Deutschland"
             }
-          }
+          },
+          "containsPlace": [
+            { "@type": "LocationFeatureSpecification", "name": "Schlafzimmer" },
+            { "@type": "LocationFeatureSpecification", "name": "Wohnzimmer" },
+            { "@type": "LocationFeatureSpecification", "name": "Badezimmer" }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "bestRating": "5",
+            "ratingCount": "17"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Anna & Christian" },
+              "datePublished": "2023-08-15",
+              "reviewBody": "Wir hatten wunderbar entspannte Tage in dieser Ferienwohnung. Die Terrasse mit Blick auf die Reichsburg ist das absolute Highlight.",
+              "reviewRating": { "@type": "Rating", "bestRating": "5", "ratingValue": "5", "worstRating": "1" }
+            }
+          ]
         },
         {
           "@type": "LodgingBusiness",
