@@ -267,6 +267,7 @@
     <link rel="stylesheet" href="/src/css/faq.css" />
     <link rel="stylesheet" href="/src/css/contact.css" />
     <link rel="stylesheet" href="/src/css/testimonials.css" />
+    <link rel="stylesheet" href="/src/css/i18n.css" />
 </head>
 
 <body>
@@ -275,14 +276,14 @@
         <!-- FIXED HEADER / NAVIGATION -->
         <nav id="main-nav" class="main-nav">
             <div class="nav-container container">
-                <a href="#" class="nav-logo">Ferienwohnung Maringer</a>
+                <a href="#" class="nav-logo" data-i18n="nav.logo">Ferienwohnung Maringer</a>
                 <div class="nav-links">
-                    <a href="#facts" class="nav-link">Ausstattung</a>
-                    <a href="#gallery" class="nav-link">Haus & Tour</a>
-                    <a href="#bewertungen" class="nav-link">Bewertungen</a>
-                    <a href="#preise" class="nav-link">Preise</a>
-                    <a href="#faq" class="nav-link">Guide & FAQ</a>
-                    <a href="#kontakt" class="nav-cta-btn">Anfragen</a>
+                    <a href="#facts" class="nav-link" data-i18n="nav.ausstattung">Ausstattung</a>
+                    <a href="#gallery" class="nav-link" data-i18n="nav.gallery">Haus & Tour</a>
+                    <a href="#bewertungen" class="nav-link" data-i18n="nav.bewertungen">Bewertungen</a>
+                    <a href="#preise" class="nav-link" data-i18n="nav.preise">Preise</a>
+                    <a href="#faq" class="nav-link" data-i18n="nav.faq">Guide & FAQ</a>
+                    <a href="#kontakt" class="nav-cta-btn" data-i18n="nav.anfragen">Anfragen</a>
                 </div>
                 <!-- Mobile Menu Toggle -->
                 <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Menu">
@@ -296,12 +297,13 @@
         <!-- MOBILE OVERLAY MENU -->
         <div id="mobile-menu" class="mobile-menu">
             <nav class="mobile-menu-nav">
-                <a href="#facts" class="mobile-menu-link">Ausstattung</a>
-                <a href="#gallery" class="mobile-menu-link">Haus & Tour</a>
-                <a href="#bewertungen" class="mobile-menu-link">Bewertungen</a>
-                <a href="#preise" class="mobile-menu-link">Preise</a>
-                <a href="#faq" class="mobile-menu-link">Guide & FAQ</a>
-                <a href="#kontakt" class="mobile-menu-link mobile-menu-cta">Verfügbarkeit anfragen</a>
+                <a href="#facts" class="mobile-menu-link" data-i18n="nav.ausstattung">Ausstattung</a>
+                <a href="#gallery" class="mobile-menu-link" data-i18n="nav.gallery">Haus & Tour</a>
+                <a href="#bewertungen" class="mobile-menu-link" data-i18n="nav.bewertungen">Bewertungen</a>
+                <a href="#preise" class="mobile-menu-link" data-i18n="nav.preise">Preise</a>
+                <a href="#faq" class="mobile-menu-link" data-i18n="nav.faq">Guide & FAQ</a>
+                <a href="#kontakt" class="mobile-menu-link mobile-menu-cta"
+                    data-i18n="nav.anfragen_mobile">Verfügbarkeit anfragen</a>
             </nav>
         </div>
 
@@ -324,16 +326,17 @@
             <!-- Hero Content (GEO: h1 enthält "Ferienwohnung Cochem") -->
             <div class="hero-content" data-parallax="0.15" data-parallax-dir="-1">
                 <div class="hero-text js-hero-fade-up">
-                    <div class="badge">Ferienwohnung in Cochem an der Mosel</div>
-                    <h1>Burg- & Moselblick direkt vom Balkon</h1>
-                    <p class="subtitle">Ihre zentrale, ruhige Ferienwohnung mit Panoramablick auf die Reichsburg Cochem.
+                    <div class="badge" data-i18n="hero.badge">Ferienwohnung in Cochem an der Mosel</div>
+                    <h1 data-i18n="hero.h1">Burg- & Moselblick direkt vom Balkon</h1>
+                    <p class="subtitle" data-i18n="hero.subtitle">Ihre zentrale, ruhige Ferienwohnung mit Panoramablick
+                        auf die Reichsburg Cochem.
                         Direkt beim Gastgeber buchen — ohne Portalgebühren.</p>
                 </div>
 
                 <!-- Floating CTA Bar -->
                 <div class="hero-cta-bar js-hero-fade-up-delay">
-                    <a href="#kontakt" class="btn btn-primary">Verfügbarkeit anfragen</a>
-                    <a href="#gallery" class="btn btn-outline-hero">Wohnung ansehen</a>
+                    <a href="#kontakt" class="btn btn-primary" data-i18n="hero.cta_primary">Verfügbarkeit anfragen</a>
+                    <a href="#gallery" class="btn btn-outline-hero" data-i18n="hero.cta_secondary">Wohnung ansehen</a>
                 </div>
             </div>
 
@@ -353,8 +356,9 @@
         <section id="facts" class="facts-section">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>Ihre Aufenthalts-Highlights in Cochem</h2>
-                    <p>Die wichtigsten Daten für Ihren perfekten Moselurlaub, auf einen Blick.</p>
+                    <h2 data-i18n="facts.h2">Ihre Aufenthalts-Highlights in Cochem</h2>
+                    <p data-i18n="facts.subtitle">Die wichtigsten Daten für Ihren perfekten Moselurlaub, auf einen
+                        Blick.</p>
                 </div>
 
                 <ul class="facts-list facts-grid">
@@ -364,8 +368,9 @@
                             <path
                                 d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                         </svg>
-                        <h3 class="fact-title">Top Lage in Cochem</h3>
-                        <p class="fact-desc">Zentral, aber ruhig. Fußläufig zur Altstadt, Reichsburg und Moselpromenade.
+                        <h3 class="fact-title" data-i18n="facts.lage_title">Top Lage in Cochem</h3>
+                        <p class="fact-desc" data-i18n="facts.lage_desc">Zentral, aber ruhig. Fußläufig zur Altstadt,
+                            Reichsburg und Moselpromenade.
                             Vom Balkon und der Terrasse genießen Sie direkten Burg- & Moselblick.</p>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 100ms">
@@ -374,8 +379,9 @@
                             <path
                                 d="M18 4H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-6 11H6v-2h6v2zm6-4H6V9h12v2z" />
                         </svg>
-                        <h3 class="fact-title">Ideal für Paare (+1 Kind)</h3>
-                        <p class="fact-desc">Gemütliche Wohnung für 2 Erwachsene, mit Platz für ein Kind. Sonniger
+                        <h3 class="fact-title" data-i18n="facts.ideal_title">Ideal für Paare (+1 Kind)</h3>
+                        <p class="fact-desc" data-i18n="facts.ideal_desc">Gemütliche Wohnung für 2 Erwachsene, mit Platz
+                            für ein Kind. Sonniger
                             Balkon und private Terrasse zum Entspannen mit Moselblick.</p>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 200ms">
@@ -384,8 +390,9 @@
                             <path
                                 d="M18.92 5.01C18.72 4.42 18.16 4 17.5 4h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-6.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z" />
                         </svg>
-                        <h3 class="fact-title">Kostenloser Parkplatz</h3>
-                        <p class="fact-desc">Sorgenfrei anreisen. Ein sicherer Privatparkplatz direkt am Haus ist für
+                        <h3 class="fact-title" data-i18n="facts.parking_title">Kostenloser Parkplatz</h3>
+                        <p class="fact-desc" data-i18n="facts.parking_desc">Sorgenfrei anreisen. Ein sicherer
+                            Privatparkplatz direkt am Haus ist für
                             Sie inklusive — in Cochem selten und wertvoll!</p>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 300ms">
@@ -394,8 +401,9 @@
                             <path
                                 d="M12 3C7.95 3 4.21 4.34 1.2 6.6L3 9C5.5 7.12 8.62 6 12 6s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3zm0 5c-2.42 0-4.63.76-6.4 2.05L7 12c1.4-1.01 3.12-1.62 5-1.62s3.6.61 5 1.62L18.4 10.05C16.63 8.76 14.42 8 12 8zm0 5c-1.1 0-2.11.35-2.94.94L11 15.86V19h2v-3.14l1.94-1.92C14.11 13.35 13.1 13 12 13z" />
                         </svg>
-                        <h3 class="fact-title">High-Speed WLAN & Workation</h3>
-                        <p class="fact-desc">Schnelles, stabiles Internet für ungestörtes Arbeiten oder abendliches
+                        <h3 class="fact-title" data-i18n="facts.wifi_title">High-Speed WLAN & Workation</h3>
+                        <p class="fact-desc" data-i18n="facts.wifi_desc">Schnelles, stabiles Internet für ungestörtes
+                            Arbeiten oder abendliches
                             Streaming. Arbeiten mit Moselblick.</p>
                     </li>
                 </ul>
@@ -406,8 +414,8 @@
         <section id="gallery" class="gallery-section">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>Ihre Ferienwohnung in Cochem</h2>
-                    <p>Machen Sie sich ein Bild von Ihrem Urlaubs-Zuhause an der Mosel.</p>
+                    <h2 data-i18n="gallery.h2">Ihre Ferienwohnung in Cochem</h2>
+                    <p data-i18n="gallery.subtitle">Machen Sie sich ein Bild von Ihrem Urlaubs-Zuhause an der Mosel.</p>
                 </div>
 
                 <div class="gallery-grid">
@@ -418,7 +426,7 @@
                                 alt="Panoramablick aus dem Fenster der Ferienwohnung auf die Reichsburg Cochem und das Moseltal"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Burgblick aus der Wohnung</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_burgblick">Burgblick aus der Wohnung</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 50ms">
                         <picture>
@@ -427,7 +435,7 @@
                                 alt="Sonniger Balkon der Ferienwohnung Maringer mit Blick auf Cochem und die Mosel"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Balkon mit Panoramablick</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_balkon">Balkon mit Panoramablick</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 100ms">
                         <picture>
@@ -436,7 +444,7 @@
                                 alt="Heller Essbereich der Ferienwohnung Cochem mit Esstisch und Tageslicht"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Esszimmer</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_esszimmer">Esszimmer</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 150ms">
                         <picture>
@@ -445,7 +453,7 @@
                                 alt="Zweite Ansicht des Essbereichs mit Blick ins Wohnzimmer in der Ferienwohnung Cochem"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Wohn- & Essbereich</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_wohnbereich">Wohn- & Essbereich</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 200ms">
                         <picture>
@@ -454,7 +462,7 @@
                                 alt="Moderne, voll ausgestattete Küche in der Ferienwohnung Maringer Cochem"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Voll ausgestattete Küche</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_kueche">Voll ausgestattete Küche</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 250ms">
                         <picture>
@@ -463,7 +471,7 @@
                                 alt="Sauberes, modernes Badezimmer mit Dusche in der Ferienwohnung Cochem an der Mosel"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Modernes Badezimmer</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_bad">Modernes Badezimmer</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 300ms">
                         <picture>
@@ -472,7 +480,7 @@
                                 alt="Gemütliches Schlafzimmer mit Doppelbett in der Ferienwohnung Maringer Cochem"
                                 loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Schlafzimmer</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_schlafzimmer">Schlafzimmer</span>
                     </div>
                     <div class="gallery-item js-reveal" style="transition-delay: 350ms">
                         <picture>
@@ -480,7 +488,7 @@
                             <img src="/assets/images/Schlafzimmer2.webp"
                                 alt="Schlafzimmer der Ferienwohnung Cochem aus anderer Perspektive" loading="lazy">
                         </picture>
-                        <span class="gallery-caption">Schlafzimmer</span>
+                        <span class="gallery-caption" data-i18n="gallery.cap_schlafzimmer2">Schlafzimmer</span>
                     </div>
                 </div>
             </div>
@@ -508,21 +516,23 @@
         <section id="bewertungen" class="testimonials-section">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>Was unsere Gäste sagen</h2>
-                    <p>Echte Erfahrungen von echten Gästen — ohne Filter.</p>
+                    <h2 data-i18n="testimonials.h2">Was unsere Gäste sagen</h2>
+                    <p data-i18n="testimonials.subtitle">Echte Erfahrungen von echten Gästen — ohne Filter.</p>
                 </div>
 
                 <div class="aggregate-rating js-reveal">
                     <span class="aggregate-rating-stars">★★★★★</span>
                     <span class="aggregate-rating-text">5.0 / 5</span>
-                    <span class="aggregate-rating-count">— 17 Bewertungen auf Google</span>
+                    <span class="aggregate-rating-count" data-i18n="testimonials.aggregate">— 17 Bewertungen auf
+                        Google</span>
                 </div>
 
                 <div class="testimonial-grid">
                     <div class="testimonial-card js-reveal">
                         <span class="testimonial-quote-mark">"</span>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">Wir hatten wunderbar entspannte Tage in dieser Ferienwohnung. Die
+                        <p class="testimonial-text" data-i18n="testimonials.review1">Wir hatten wunderbar entspannte
+                            Tage in dieser Ferienwohnung. Die
                             Terrasse mit Blick auf die Reichsburg ist das absolute Highlight — perfekt für gemütliche
                             Nachmittage mit einem Glas Moselwein.</p>
                         <div class="testimonial-author">Anna & Christian</div>
@@ -531,7 +541,8 @@
                     <div class="testimonial-card js-reveal" style="transition-delay: 100ms">
                         <span class="testimonial-quote-mark">"</span>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">Unvergleichliche Lage in Cochem. Direkter Burgblick, die Altstadt in
+                        <p class="testimonial-text" data-i18n="testimonials.review2">Unvergleichliche Lage in Cochem.
+                            Direkter Burgblick, die Altstadt in
                             wenigen Gehminuten erreichbar. Die Terrasse ist ideal für laue Sommerabende. Absolut
                             empfehlenswert!</p>
                         <div class="testimonial-author">Tobias</div>
@@ -540,7 +551,8 @@
                     <div class="testimonial-card js-reveal" style="transition-delay: 200ms">
                         <span class="testimonial-quote-mark">"</span>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">Unser Geheimtipp an der Mosel! Wir kommen jedes Jahr wieder und
+                        <p class="testimonial-text" data-i18n="testimonials.review3">Unser Geheimtipp an der Mosel! Wir
+                            kommen jedes Jahr wieder und
                             freuen uns jedes Mal aufs Neue. Die Gastgeber sind herzlich und immer für einen guten Tipp
                             zu haben. Besser als jedes Hotel.</p>
                         <div class="testimonial-author">Lisa</div>
@@ -554,8 +566,9 @@
         <section id="lage" class="map-section">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>So finden Sie uns</h2>
-                    <p>Zentral in Cochem — fußläufig zur Altstadt, Reichsburg und Moselpromenade.</p>
+                    <h2 data-i18n="map.h2">So finden Sie uns</h2>
+                    <p data-i18n="map.subtitle">Zentral in Cochem — fußläufig zur Altstadt, Reichsburg und
+                        Moselpromenade.</p>
                 </div>
 
                 <div class="map-container js-reveal" style="transition-delay: 100ms">
@@ -566,10 +579,14 @@
                 </div>
 
                 <div class="map-badges js-reveal" style="transition-delay: 200ms">
-                    <span class="map-badge"><span class="map-badge-icon">🏰</span> 5 Min. zur Reichsburg</span>
-                    <span class="map-badge"><span class="map-badge-icon">🏘️</span> 10 Min. zur Altstadt</span>
-                    <span class="map-badge"><span class="map-badge-icon">🚗</span> Kostenloser Parkplatz</span>
-                    <span class="map-badge"><span class="map-badge-icon">🚲</span> Direkt am Moselradweg</span>
+                    <span class="map-badge"><span class="map-badge-icon">🏰</span> <span data-i18n="map.badge_burg">5
+                            Min. zur Reichsburg</span></span>
+                    <span class="map-badge"><span class="map-badge-icon">🏘️</span> <span
+                            data-i18n="map.badge_altstadt">10 Min. zur Altstadt</span></span>
+                    <span class="map-badge"><span class="map-badge-icon">🚗</span> <span
+                            data-i18n="map.badge_parking">Kostenloser Parkplatz</span></span>
+                    <span class="map-badge"><span class="map-badge-icon">🚲</span> <span
+                            data-i18n="map.badge_radweg">Direkt am Moselradweg</span></span>
                 </div>
             </div>
         </section>
@@ -578,36 +595,41 @@
         <section id="local-guide" class="guide-section">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>Was Sie in Cochem erleben können</h2>
-                    <p>Cochem zählt zu den beliebtesten Urlaubsorten an der Mosel. Hier unsere Insider-Tipps für Ihren
+                    <h2 data-i18n="guide.h2">Was Sie in Cochem erleben können</h2>
+                    <p data-i18n="guide.subtitle">Cochem zählt zu den beliebtesten Urlaubsorten an der Mosel. Hier
+                        unsere Insider-Tipps für Ihren
                         Aufenthalt.</p>
                 </div>
                 <div class="guide-grid">
                     <div class="guide-card js-reveal">
                         <div class="guide-card-accent"></div>
-                        <h3>🏰 Reichsburg Cochem</h3>
-                        <p>Die beeindruckende Burg thront über der Stadt und ist fußläufig von unserer Ferienwohnung
+                        <h3 data-i18n="guide.burg_title">🏰 Reichsburg Cochem</h3>
+                        <p data-i18n="guide.burg_desc">Die beeindruckende Burg thront über der Stadt und ist fußläufig
+                            von unserer Ferienwohnung
                             erreichbar. Ein absolutes Muss für Kultur- und Geschichtsinteressierte — und den schönsten
                             Blick genießen Sie von unserem Balkon.</p>
                     </div>
                     <div class="guide-card js-reveal" style="transition-delay: 100ms">
                         <div class="guide-card-accent"></div>
-                        <h3>🍷 Weinwanderungen & Probierstuben</h3>
-                        <p>Vergessen Sie die überfüllten Touristenlokale. Wir verraten Ihnen, bei welchem kleinen Winzer
+                        <h3 data-i18n="guide.wine_title">🍷 Weinwanderungen & Probierstuben</h3>
+                        <p data-i18n="guide.wine_desc">Vergessen Sie die überfüllten Touristenlokale. Wir verraten
+                            Ihnen, bei welchem kleinen Winzer
                             im Nachbarort Sie die echte Mosel schmecken — inklusive persönlicher Wanderempfehlung durch
                             die Weinberge.</p>
                     </div>
                     <div class="guide-card js-reveal" style="transition-delay: 200ms">
                         <div class="guide-card-accent"></div>
-                        <h3>🚲 Moselradweg & Seitentäler</h3>
-                        <p>Der Moselradweg führt direkt an Cochem vorbei — perfekt für Tagestouren. Für Ruhesuchende
+                        <h3 data-i18n="guide.bike_title">🚲 Moselradweg & Seitentäler</h3>
+                        <p data-i18n="guide.bike_desc">Der Moselradweg führt direkt an Cochem vorbei — perfekt für
+                            Tagestouren. Für Ruhesuchende
                             empfehlen wir die Seitentäler (z.B. Enderttal), wo die Natur noch unberührt ist.
                             Fahrradstellplatz inklusive.</p>
                     </div>
                     <div class="guide-card js-reveal" style="transition-delay: 300ms">
                         <div class="guide-card-accent"></div>
-                        <h3>⛴️ Moselschifffahrt & Altstadt</h3>
-                        <p>Entdecken Sie die Moselregion vom Wasser aus oder bummeln Sie durch die verwinkelten Gassen
+                        <h3 data-i18n="guide.ship_title">⛴️ Moselschifffahrt & Altstadt</h3>
+                        <p data-i18n="guide.ship_desc">Entdecken Sie die Moselregion vom Wasser aus oder bummeln Sie
+                            durch die verwinkelten Gassen
                             der Altstadt. Gemütliche Cafés, kleine Boutiquen und die Moselpromenade sind fußläufig
                             erreichbar.</p>
                     </div>
@@ -619,51 +641,55 @@
         <section id="preise" class="pricing-section">
             <div class="container pricing-container">
                 <div class="text-center js-reveal">
-                    <h2>Preise & Inklusivleistungen</h2>
-                    <p>Transparente Konditionen. Keine versteckten Buchungsgebühren wie auf großen Portalen.</p>
+                    <h2 data-i18n="pricing.h2">Preise & Inklusivleistungen</h2>
+                    <p data-i18n="pricing.subtitle">Transparente Konditionen. Keine versteckten Buchungsgebühren wie auf
+                        großen Portalen.</p>
                 </div>
 
                 <div class="pricing-table-wrapper js-reveal" style="transition-delay: 100ms">
-                    <div class="bestpreis-badge">💎 Bestpreis — Direkt beim Gastgeber, ohne Portalgebühren</div>
+                    <div class="bestpreis-badge" data-i18n="pricing.bestpreis">💎 Bestpreis — Direkt beim Gastgeber,
+                        ohne Portalgebühren</div>
                     <table class="pricing-table">
                         <thead>
                             <tr>
-                                <th>Leistung</th>
-                                <th>Details</th>
-                                <th>Preis</th>
+                                <th data-i18n="pricing.th_leistung">Leistung</th>
+                                <th data-i18n="pricing.th_details">Details</th>
+                                <th data-i18n="pricing.th_preis">Preis</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr class="pricing-highlight">
-                                <td><strong>Übernachtung</strong></td>
-                                <td>Ganzjährig, für 2 Personen</td>
-                                <td class="price-value">80 € / Nacht</td>
+                                <td><strong data-i18n="pricing.row1_leistung">Übernachtung</strong></td>
+                                <td data-i18n="pricing.row1_details">Ganzjährig, für 2 Personen</td>
+                                <td class="price-value" data-i18n="pricing.row1_preis">80 € / Nacht</td>
                             </tr>
                             <tr>
-                                <td><strong>Kind (bis 12 J.)</strong></td>
-                                <td>Ganzjährig</td>
-                                <td>kostenfrei</td>
+                                <td><strong data-i18n="pricing.row2_leistung">Kind (bis 12 J.)</strong></td>
+                                <td data-i18n="pricing.row2_details">Ganzjährig</td>
+                                <td data-i18n="pricing.row2_preis">kostenfrei</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
                 <div class="pricing-notes js-reveal" style="transition-delay: 200ms">
-                    <strong>Alles inklusive — keine versteckten Kosten:</strong>
+                    <strong data-i18n="pricing.inklusive_title">Alles inklusive — keine versteckten Kosten:</strong>
                     <ul>
-                        <li>Bettwäsche & Handtücher</li>
-                        <li>Alle Nebenkosten (Strom, Wasser, Heizung)</li>
-                        <li>Kostenloser Privat-Parkplatz direkt am Haus</li>
-                        <li>High-Speed WLAN</li>
-                        <li>Endreinigung</li>
+                        <li data-i18n="pricing.inkl_1">Bettwäsche & Handtücher</li>
+                        <li data-i18n="pricing.inkl_2">Alle Nebenkosten (Strom, Wasser, Heizung)</li>
+                        <li data-i18n="pricing.inkl_3">Kostenloser Privat-Parkplatz direkt am Haus</li>
+                        <li data-i18n="pricing.inkl_4">High-Speed WLAN</li>
+                        <li data-i18n="pricing.inkl_5">Endreinigung</li>
                     </ul>
-                    <p style="margin-top: 10px; font-size: 0.85rem;">Mindestaufenthalt: 3 Nächte. Exklusive lokaler
+                    <p style="margin-top: 10px; font-size: 0.85rem;" data-i18n="pricing.mindestaufenthalt">
+                        Mindestaufenthalt: 3 Nächte. Exklusive lokaler
                         Gästebeitrag.</p>
                 </div>
 
                 <a href="#kontakt" class="availability-cta js-reveal" style="transition-delay: 300ms">
                     <span class="availability-cta-icon">📅</span>
-                    Wunschtermin anfragen — wir antworten in der Regel noch am selben Tag
+                    <span data-i18n="pricing.cta">Wunschtermin anfragen — wir antworten in der Regel noch am selben
+                        Tag</span>
                 </a>
             </div>
         </section>
@@ -672,74 +698,82 @@
         <section id="faq" class="faq-section">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>Häufig gestellte Fragen</h2>
-                    <p>Alles, was Sie vor Ihrer Anreise nach Cochem wissen sollten.</p>
+                    <h2 data-i18n="faq.h2">Häufig gestellte Fragen</h2>
+                    <p data-i18n="faq.subtitle">Alles, was Sie vor Ihrer Anreise nach Cochem wissen sollten.</p>
                 </div>
 
                 <div class="faq-list">
                     <div class="faq-item js-reveal">
-                        <button class="faq-question">Wie weit ist es von der Ferienwohnung in die Cochemer Altstadt?
+                        <button class="faq-question"><span data-i18n="faq.q1">Wie weit ist es von der Ferienwohnung in
+                                die Cochemer Altstadt?</span>
                             <svg class="faq-icon" viewBox="0 0 24 24">
                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
                             </svg>
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-inner">
-                                <p>Sie erreichen die historische Altstadt von Cochem sowie die Moselpromenade in etwa 10
+                                <p data-i18n="faq.a1">Sie erreichen die historische Altstadt von Cochem sowie die
+                                    Moselpromenade in etwa 10
                                     gemütlichen Gehminuten. Sie wohnen zentral, aber dennoch absolut ruhig abseits des
                                     Trubels.</p>
                             </div>
                         </div>
                     </div>
                     <div class="faq-item js-reveal" style="transition-delay: 50ms">
-                        <button class="faq-question">Können wir unsere Fahrräder sicher unterstellen?
+                        <button class="faq-question"><span data-i18n="faq.q2">Können wir unsere Fahrräder sicher
+                                unterstellen?</span>
                             <svg class="faq-icon" viewBox="0 0 24 24">
                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
                             </svg>
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-inner">
-                                <p>Ja! Wir bieten Ihnen eine sichere und trockene Unterstellmöglichkeit für Ihre
+                                <p data-i18n="faq.a2">Ja! Wir bieten Ihnen eine sichere und trockene
+                                    Unterstellmöglichkeit für Ihre
                                     (Elektro-)Fahrräder direkt an der Unterkunft.</p>
                             </div>
                         </div>
                     </div>
                     <div class="faq-item js-reveal" style="transition-delay: 100ms">
-                        <button class="faq-question">Sind Haustiere/Hunde erlaubt?
+                        <button class="faq-question"><span data-i18n="faq.q3">Sind Haustiere/Hunde erlaubt?</span>
                             <svg class="faq-icon" viewBox="0 0 24 24">
                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
                             </svg>
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-inner">
-                                <p>Aus Rücksicht auf Allergiker sind Haustiere in unserer Ferienwohnung leider nicht
+                                <p data-i18n="faq.a3">Aus Rücksicht auf Allergiker sind Haustiere in unserer
+                                    Ferienwohnung leider nicht
                                     gestattet. Wir bitten um Ihr Verständnis.</p>
                             </div>
                         </div>
                     </div>
                     <div class="faq-item js-reveal" style="transition-delay: 150ms">
-                        <button class="faq-question">Gibt es einen Parkplatz an der Ferienwohnung?
+                        <button class="faq-question"><span data-i18n="faq.q4">Gibt es einen Parkplatz an der
+                                Ferienwohnung?</span>
                             <svg class="faq-icon" viewBox="0 0 24 24">
                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
                             </svg>
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-inner">
-                                <p>Ja, ein kostenloser Privatparkplatz direkt am Haus ist für Sie inklusive. In Cochem
+                                <p data-i18n="faq.a4">Ja, ein kostenloser Privatparkplatz direkt am Haus ist für Sie
+                                    inklusive. In Cochem
                                     ist das selten und besonders wertvoll — so sparen Sie sich die teuren öffentlichen
                                     Parkgebühren.</p>
                             </div>
                         </div>
                     </div>
                     <div class="faq-item js-reveal" style="transition-delay: 200ms">
-                        <button class="faq-question">Was kostet eine Übernachtung?
+                        <button class="faq-question"><span data-i18n="faq.q5">Was kostet eine Übernachtung?</span>
                             <svg class="faq-icon" viewBox="0 0 24 24">
                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
                             </svg>
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-inner">
-                                <p>80€ pro Nacht für 2 Personen, ganzjährig. Bettwäsche, Handtücher, alle Nebenkosten,
+                                <p data-i18n="faq.a5">80€ pro Nacht für 2 Personen, ganzjährig. Bettwäsche, Handtücher,
+                                    alle Nebenkosten,
                                     WLAN und Parkplatz sind im Preis bereits enthalten — keine versteckten Kosten.</p>
                             </div>
                         </div>
@@ -752,8 +786,9 @@
         <section id="cochem-guide" class="facts-section" style="background: var(--color-surface);">
             <div class="container">
                 <div class="text-center js-reveal">
-                    <h2>Cochem entdecken: Ihr Urlaubsguide</h2>
-                    <p>Wir kennen Cochem wie unsere Westentasche. Stöbern Sie in unseren Insider-Guides für den
+                    <h2 data-i18n="cochem_guide.h2">Cochem entdecken: Ihr Urlaubsguide</h2>
+                    <p data-i18n="cochem_guide.subtitle">Wir kennen Cochem wie unsere Westentasche. Stöbern Sie in
+                        unseren Insider-Guides für den
                         perfekten Moselurlaub.</p>
                 </div>
 
@@ -762,41 +797,53 @@
                         <div class="fact-card-progress"></div>
                         <span style="font-size: 2rem;">🅿️</span>
                         <h3 class="fact-title"><a href="/spokes/cochem-parken.html"
-                                style="color: inherit; text-decoration: none;">Parken in Cochem</a></h3>
-                        <p class="fact-desc">Wo parkt man stressfrei? Tipps zu Parkgebühren und warum unser kostenloser
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.parken_title">Parken in Cochem</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.parken_desc">Wo parkt man stressfrei? Tipps zu
+                            Parkgebühren und warum unser kostenloser
                             Privatparkplatz Gold wert ist.</p>
                         <a href="/spokes/cochem-parken.html"
-                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.parken_link">Zum Guide →</a>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 100ms">
                         <div class="fact-card-progress"></div>
                         <span style="font-size: 2rem;">🏰</span>
                         <h3 class="fact-title"><a href="/spokes/reichsburg-cochem-tickets-fuhrung.html"
-                                style="color: inherit; text-decoration: none;">Die Reichsburg Cochem</a></h3>
-                        <p class="fact-desc">Tickets, Führungen, Öffnungszeiten — und warum der schönste Blick auf die
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.reichsburg_title">Die Reichsburg Cochem</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.reichsburg_desc">Tickets, Führungen, Öffnungszeiten
+                            — und warum der schönste Blick auf die
                             Burg von unserem Balkon ist.</p>
                         <a href="/spokes/reichsburg-cochem-tickets-fuhrung.html"
-                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.reichsburg_link">Zum Guide →</a>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 200ms">
                         <div class="fact-card-progress"></div>
                         <span style="font-size: 2rem;">🌦️</span>
                         <h3 class="fact-title"><a href="/spokes/wetter-cochem-beste-reisezeit.html"
-                                style="color: inherit; text-decoration: none;">Wetter & Beste Reisezeit</a></h3>
-                        <p class="fact-desc">Wann lohnt sich die Mosel am meisten? Unser ehrlicher Jahreszeiten-Guide
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.wetter_title">Wetter & Beste Reisezeit</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.wetter_desc">Wann lohnt sich die Mosel am meisten?
+                            Unser ehrlicher Jahreszeiten-Guide
                             von Frühling bis Winter.</p>
                         <a href="/spokes/wetter-cochem-beste-reisezeit.html"
-                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.wetter_link">Zum Guide →</a>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 300ms">
                         <div class="fact-card-progress"></div>
                         <span style="font-size: 2rem;">🍷</span>
                         <h3 class="fact-title"><a href="/spokes/restaurants-weingueter-cochem.html"
-                                style="color: inherit; text-decoration: none;">Restaurants & Weingüter</a></h3>
-                        <p class="fact-desc">Die besten Lokale und Winzer in Cochem — persönliche Empfehlungen für
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.restaurants_title">Restaurants & Weingüter</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.restaurants_desc">Die besten Lokale und Winzer in
+                            Cochem — persönliche Empfehlungen für
                             Genießer.</p>
                         <a href="/spokes/restaurants-weingueter-cochem.html"
-                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Zum Guide →</a>
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.restaurants_link">Zum Guide →</a>
                     </li>
                 </ul>
             </div>
@@ -806,8 +853,9 @@
         <section id="kontakt" class="contact-section">
             <div class="container">
                 <div class="js-reveal">
-                    <h2>Buchen Sie Ihren Moselurlaub</h2>
-                    <p class="host-intro">Wir sind Winfried & Christa Maringer — Ihre Gastgeber in Cochem. Bei uns
+                    <h2 data-i18n="contact.h2">Buchen Sie Ihren Moselurlaub</h2>
+                    <p class="host-intro" data-i18n="contact.intro">Wir sind Winfried & Christa Maringer — Ihre
+                        Gastgeber in Cochem. Bei uns
                         buchen Sie direkt und persönlich, ohne unpersönliche Portale und ohne Buchungsgebühren.
                         Schreiben Sie uns einfach eine kurze Nachricht mit Ihrem Wunschzeitraum — wir antworten Ihnen in
                         der Regel noch am selben Tag.</p>
@@ -932,11 +980,12 @@
             <div class="container">
                 <div class="footer-grid">
                     <div class="footer-col">
-                        <h4 class="footer-brand">Ferienwohnung Maringer</h4>
-                        <p class="footer-tagline">Ihr Zuhause an der Mosel.<br>Direkt buchen — ohne Portalgebühren.</p>
+                        <h4 class="footer-brand" data-i18n="footer.brand">Ferienwohnung Maringer</h4>
+                        <p class="footer-tagline" data-i18n="footer.tagline" data-i18n-html>Ihr Zuhause an der
+                            Mosel.<br>Direkt buchen — ohne Portalgebühren.</p>
                     </div>
                     <div class="footer-col">
-                        <h4>Kontakt</h4>
+                        <h4 data-i18n="footer.kontakt">Kontakt</h4>
                         <address class="footer-address">
                             <p>Kelbergerstr. 38a</p>
                             <p>56812 Cochem</p>
@@ -945,19 +994,19 @@
                         </address>
                     </div>
                     <div class="footer-col">
-                        <h4>Navigation</h4>
+                        <h4 data-i18n="footer.navigation">Navigation</h4>
                         <ul class="footer-nav">
-                            <li><a href="#facts">Ausstattung</a></li>
-                            <li><a href="#gallery">Haus & Tour</a></li>
-                            <li><a href="#preise">Preise</a></li>
-                            <li><a href="#kontakt">Kontakt</a></li>
+                            <li><a href="#facts" data-i18n="nav.ausstattung">Ausstattung</a></li>
+                            <li><a href="#gallery" data-i18n="nav.gallery">Haus & Tour</a></li>
+                            <li><a href="#preise" data-i18n="nav.preise">Preise</a></li>
+                            <li><a href="#kontakt" data-i18n="footer.kontakt">Kontakt</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
-                        <h4>Rechtliches</h4>
+                        <h4 data-i18n="footer.rechtliches">Rechtliches</h4>
                         <ul class="footer-nav">
-                            <li><a href="#impressum">Impressum</a></li>
-                            <li><a href="#datenschutz">Datenschutz</a></li>
+                            <li><a href="#impressum" data-i18n="footer.impressum">Impressum</a></li>
+                            <li><a href="#datenschutz" data-i18n="footer.datenschutz">Datenschutz</a></li>
                         </ul>
                     </div>
                 </div>

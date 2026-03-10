@@ -1,6 +1,9 @@
 // main.js - Core functionality (schnorpfeil.com-inspired interactions)
+import { initI18n } from './i18n.js';
 
 document.addEventListener('DOMContentLoaded', () => {
+    // ===== 0. Multi-Language i18n =====
+    initI18n();
     // ===== 1. Footer Year =====
     const yearSpan = document.getElementById('year');
     if (yearSpan) {

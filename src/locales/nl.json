@@ -1,0 +1,151 @@
+{
+    "meta": {
+        "title": "Vakantiewoning Cochem met kasteel- & Moezelvzicht | Maringer – Direct boeken",
+        "description": "Vakantiewoning in Cochem aan de Moezel met panoramisch uitzicht op de Rijksburcht & de Moezel. Balkon, terras, gratis parkeerplaats & wifi. Centraal & rustig. Direct bij de gastheer boeken – zonder portaalkosten.",
+        "og_title": "Vakantiewoning Cochem met kasteel- & Moezelvzicht | Maringer",
+        "og_description": "Centrale vakantiewoning in Cochem met panoramisch uitzicht op de Rijksburcht & Moezel. Balkon, terras, wifi en parkeerplaats inbegrepen. Direct boeken bij de gastheer."
+    },
+    "nav": {
+        "logo": "Vakantiewoning Maringer",
+        "ausstattung": "Voorzieningen",
+        "gallery": "Huis & Rondleiding",
+        "bewertungen": "Beoordelingen",
+        "preise": "Prijzen",
+        "faq": "Gids & FAQ",
+        "anfragen": "Informeren",
+        "anfragen_mobile": "Beschikbaarheid controleren"
+    },
+    "hero": {
+        "badge": "Vakantiewoning in Cochem aan de Moezel",
+        "h1": "Kasteel- & Moezelvzicht direct vanaf uw balkon",
+        "subtitle": "Uw centrale, rustige vakantiewoning met panoramisch uitzicht op de Rijksburcht Cochem. Direct bij de gastheer boeken — zonder portaalkosten.",
+        "cta_primary": "Beschikbaarheid controleren",
+        "cta_secondary": "Woning bekijken",
+        "scroll_label": "Naar beneden scrollen"
+    },
+    "facts": {
+        "h2": "Hoogtepunten van uw verblijf in Cochem",
+        "subtitle": "De belangrijkste gegevens voor uw perfecte Moezelvakantie, in één oogopslag.",
+        "lage_title": "Toplocatie in Cochem",
+        "lage_desc": "Centraal maar rustig. Op loopafstand van de oude stad, de Rijksburcht en de Moezelpromenade. Geniet van direct uitzicht op het kasteel & de Moezel vanaf het balkon en terras.",
+        "ideal_title": "Ideaal voor koppels (+1 kind)",
+        "ideal_desc": "Gezellige woning voor 2 volwassenen, met ruimte voor één kind. Zonnig balkon en privéterras om te ontspannen met Moezelvzicht.",
+        "parking_title": "Gratis Parkeerplaats",
+        "parking_desc": "Zorgeloos aanreizen. Een veilige privéparkeerplaats direct bij het huis is inbegrepen — zeldzaam en waardevol in Cochem!",
+        "wifi_title": "Snelle wifi & Workation",
+        "wifi_desc": "Snel, stabiel internet voor ongestoord werken of een avondje streamen. Werken met uitzicht op de Moezel."
+    },
+    "gallery": {
+        "h2": "Uw vakantiewoning in Cochem",
+        "subtitle": "Maak kennis met uw vakantiehuis aan de Moezel.",
+        "cap_burgblick": "Kasteelzicht vanuit de woning",
+        "cap_balkon": "Balkon met panoramisch uitzicht",
+        "cap_esszimmer": "Eetkamer",
+        "cap_wohnbereich": "Woon- & eetruimte",
+        "cap_kueche": "Volledig uitgeruste keuken",
+        "cap_bad": "Moderne badkamer",
+        "cap_schlafzimmer": "Slaapkamer",
+        "cap_schlafzimmer2": "Slaapkamer"
+    },
+    "testimonials": {
+        "h2": "Wat onze gasten zeggen",
+        "subtitle": "Echte ervaringen van echte gasten — ongefilterd.",
+        "aggregate": "— 17 beoordelingen op Google",
+        "review1": "We hebben heerlijk ontspannen dagen gehad in deze vakantiewoning. Het terras met uitzicht op de Rijksburcht is het absolute hoogtepunt — perfect voor gezellige middagen met een glas Moezelwijn.",
+        "review2": "Onvergelijkbare locatie in Cochem. Direct kasteelzicht, de oude stad op een paar minuten lopen. Het terras is ideaal voor warme zomeravonden. Absoluut aan te raden!",
+        "review3": "Ons verborgen juweeltje aan de Moezel! We komen elk jaar terug en verheugen ons elke keer opnieuw. De gastheren zijn hartelijk en hebben altijd goede tips. Beter dan elk hotel."
+    },
+    "map": {
+        "h2": "Hoe u ons vindt",
+        "subtitle": "Centraal in Cochem — op loopafstand van de oude stad, Rijksburcht en Moezelpromenade.",
+        "badge_burg": "5 min naar de Rijksburcht",
+        "badge_altstadt": "10 min naar de oude stad",
+        "badge_parking": "Gratis parkeerplaats",
+        "badge_radweg": "Direct aan het Moezelfietspad"
+    },
+    "guide": {
+        "h2": "Wat u kunt beleven in Cochem",
+        "subtitle": "Cochem is een van de populairste vakantiebestemmingen aan de Moezel. Hier zijn onze insidertips voor uw verblijf.",
+        "burg_title": "🏰 Rijksburcht Cochem",
+        "burg_desc": "Het indrukwekkende kasteel torent boven de stad uit en is op loopafstand van onze vakantiewoning. Een absolute must voor cultuur- en geschiedenisliefhebbers — en het mooiste uitzicht geniet u vanaf ons balkon.",
+        "wine_title": "🍷 Wijnwandelingen & proeflokalen",
+        "wine_desc": "Vergeet de overvolle toeristenrestaurants. Wij vertellen u bij welke kleine wijnboer in het naburige dorp u de echte Moezel proeft — inclusief persoonlijk wandeladvies door de wijngaarden.",
+        "bike_title": "🚲 Moezelfietspad & zijvalleien",
+        "bike_desc": "Het Moezelfietspad loopt direct langs Cochem — perfect voor dagtochten. Voor rustzoekekers raden we de zijvalleien aan (b.v. Enderttal), waar de natuur nog ongerept is. Fietsenstalling inbegrepen.",
+        "ship_title": "⛴️ Moezelcruise & oude stad",
+        "ship_desc": "Ontdek de Moezelregio vanaf het water of slenter door de kronkelende straatjes van de oude stad. Gezellige cafés, kleine boetiekjes en de Moezelpromenade zijn allemaal op loopafstand."
+    },
+    "cochem_guide": {
+        "h2": "Cochem ontdekken: Uw vakantiegids",
+        "subtitle": "Wij kennen Cochem als onze broekzak. Blader door onze insidergidsen voor de perfecte Moezelvakantie.",
+        "parken_title": "Parkeren in Cochem",
+        "parken_desc": "Waar parkeert u stressvrij? Tips over parkeerkosten en waarom onze gratis privéparkeerplaats goud waard is.",
+        "parken_link": "Gids lezen →",
+        "reichsburg_title": "De Rijksburcht Cochem",
+        "reichsburg_desc": "Tickets, rondleidingen, openingstijden — en waarom het mooiste uitzicht op het kasteel vanaf ons balkon is.",
+        "reichsburg_link": "Gids lezen →",
+        "wetter_title": "Weer & Beste reistijd",
+        "wetter_desc": "Wanneer is de Moezel op zijn mooist? Onze eerlijke seizoensgids van lente tot winter.",
+        "wetter_link": "Gids lezen →",
+        "restaurants_title": "Restaurants & Wijngaarden",
+        "restaurants_desc": "De beste restaurants en wijnboeren in Cochem — persoonlijke aanbevelingen voor fijnproevers.",
+        "restaurants_link": "Gids lezen →"
+    },
+    "pricing": {
+        "h2": "Prijzen & inbegrepen voorzieningen",
+        "subtitle": "Transparante voorwaarden. Geen verborgen boekingskosten zoals op grote portalen.",
+        "bestpreis": "💎 Beste prijs — Direct bij de gastheer, zonder portaalkosten",
+        "th_leistung": "Dienst",
+        "th_details": "Details",
+        "th_preis": "Prijs",
+        "row1_leistung": "Overnachting",
+        "row1_details": "Het hele jaar door, voor 2 personen",
+        "row1_preis": "€80 / nacht",
+        "row2_leistung": "Kind (tot 12 jaar)",
+        "row2_details": "Het hele jaar door",
+        "row2_preis": "gratis",
+        "inklusive_title": "Alles inbegrepen — geen verborgen kosten:",
+        "inkl_1": "Beddengoed & handdoeken",
+        "inkl_2": "Alle bijkomende kosten (elektriciteit, water, verwarming)",
+        "inkl_3": "Gratis privéparkeerplaats direct bij het huis",
+        "inkl_4": "Snelle wifi",
+        "inkl_5": "Eindschoonmaak",
+        "mindestaufenthalt": "Minimaal verblijf: 3 nachten. Exclusief lokale toeristenbelasting.",
+        "cta": "Vraag uw gewenste data aan — wij antwoorden doorgaans dezelfde dag"
+    },
+    "faq": {
+        "h2": "Veelgestelde vragen",
+        "subtitle": "Alles wat u moet weten voor uw reis naar Cochem.",
+        "q1": "Hoe ver is het van de vakantiewoning naar de oude stad van Cochem?",
+        "a1": "U bereikt het historische centrum van Cochem en de Moezelpromenade in ongeveer 10 minuten rustig wandelen. U verblijft centraal, maar toch absoluut rustig, weg van de drukte.",
+        "q2": "Kunnen we onze fietsen veilig stallen?",
+        "a2": "Ja! Wij bieden een veilige en overdekte stalruimte voor uw (elektrische) fietsen direct bij de accommodatie.",
+        "q3": "Zijn huisdieren/honden toegestaan?",
+        "a3": "Uit respect voor allergielijd­ers zijn huisdieren helaas niet toegestaan in onze vakantiewoning. Wij danken u voor uw begrip.",
+        "q4": "Is er een parkeerplaats bij de vakantiewoning?",
+        "a4": "Ja, een gratis privéparkeerplaats direct bij het huis is inbegrepen. In Cochem is dat zeldzaam en bijzonder waardevol — zo bespaart u de dure openbare parkeerkosten.",
+        "q5": "Wat kost een overnachting?",
+        "a5": "€80 per nacht voor 2 personen, het hele jaar door. Beddengoed, handdoeken, alle bijkomende kosten, wifi en parkeerplaats zijn al in de prijs inbegrepen — geen verborgen kosten."
+    },
+    "contact": {
+        "h2": "Boek uw Moezelvakantie",
+        "intro": "Wij zijn Winfried & Christa Maringer — uw gastheren in Cochem. Bij ons boekt u direct en persoonlijk, zonder onpersoonlijke portalen en zonder boekingskosten. Stuur ons eenvoudig een kort bericht met uw gewenste reisperiode — wij antwoorden doorgaans dezelfde dag.",
+        "email_btn": "E-mail sturen",
+        "whatsapp_btn": "WhatsApp sturen",
+        "phone_btn": "Bellen: +49 (0) 2671 989089",
+        "whatsapp_prefill": "Hallo%2C%20ik%20ben%20ge%C3%AFnteresseerd%20in%20uw%20vakantiewoning%20in%20Cochem."
+    },
+    "footer": {
+        "brand": "Vakantiewoning Maringer",
+        "tagline": "Uw thuis aan de Moezel.<br>Direct boeken — zonder portaalkosten.",
+        "kontakt": "Contact",
+        "navigation": "Navigatie",
+        "rechtliches": "Juridisch",
+        "impressum": "Impressum",
+        "datenschutz": "Privacybeleid",
+        "copyright": "Vakantiewoning Maringer, Cochem aan de Moezel. Alle rechten voorbehouden."
+    },
+    "lang_switcher": {
+        "label": "Taal"
+    }
+}
