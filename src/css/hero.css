@@ -16,20 +16,6 @@
     padding-right: env(safe-area-inset-right, 0px);
 }
 
-/* Thin sampling strip for Safari Dynamic Island color detection.
-   Safari samples background-color of fixed elements within 4px of viewport top. */
-.main-nav::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background-color: #2a2825;
-    z-index: -1;
-    pointer-events: none;
-}
-
 .main-nav.is-scrolled {
     background: rgba(253, 251, 250, 0.95);
     backdrop-filter: blur(16px);
