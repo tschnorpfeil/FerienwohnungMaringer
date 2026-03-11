@@ -183,7 +183,44 @@ document.addEventListener('DOMContentLoaded', () => {
         }, { passive: true });
     }
 
-    // ===== 9. Inquiry Form =====
+    // ===== 9. Sticky Mobile CTA =====
+    const stickyCta = document.getElementById('sticky-cta');
+    const heroSection = document.getElementById('hero');
+    const kontaktSection = document.getElementById('kontakt');
+
+    if (stickyCta && heroSection) {
+        // Show sticky CTA when hero leaves viewport
+        const heroObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    stickyCta.classList.add('is-visible');
+                    stickyCta.setAttribute('aria-hidden', 'false');
+                } else {
+                    stickyCta.classList.remove('is-visible');
+                    stickyCta.setAttribute('aria-hidden', 'true');
+                }
+            });
+        }, { threshold: 0 });
+        heroObserver.observe(heroSection);
+
+        // Hide sticky CTA when contact section is in view
+        if (kontaktSection) {
+            const kontaktObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        stickyCta.classList.remove('is-visible');
+                        stickyCta.setAttribute('aria-hidden', 'true');
+                    } else if (!heroSection.getBoundingClientRect().bottom > 0) {
+                        stickyCta.classList.add('is-visible');
+                        stickyCta.setAttribute('aria-hidden', 'false');
+                    }
+                });
+            }, { threshold: 0.1 });
+            kontaktObserver.observe(kontaktSection);
+        }
+    }
+
+    // ===== 10. Inquiry Form =====
     const inquiryForm = document.getElementById('inquiry-form');
     if (inquiryForm) {
         const submitBtn = document.getElementById('inquiry-submit');

@@ -185,6 +185,61 @@ section {
     border-bottom: none;
 }
 
+/* ===== MOBILE TABLE LAYOUT — stacked on narrow screens ===== */
+@media (max-width: 600px) {
+    /* All key-value tables: stack th/td vertically */
+    .facts-table,
+    .facts-table tbody,
+    .facts-table tr,
+    .facts-table th,
+    .facts-table td,
+    .info-table,
+    .info-table tbody,
+    .info-table tr,
+    .info-table th,
+    .info-table td,
+    .cost-table,
+    .cost-table thead,
+    .cost-table tbody,
+    .cost-table tr,
+    .cost-table th,
+    .cost-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .facts-table th,
+    .info-table th {
+        width: 100%;
+        padding: 12px 12px 4px;
+        border-bottom: none;
+        font-size: 0.85rem;
+    }
+
+    .facts-table td,
+    .info-table td {
+        padding: 4px 12px 14px;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .facts-table tr:last-child td,
+    .info-table tr:last-child td {
+        border-bottom: none;
+    }
+
+    /* cost-table: keep row-based but tighten padding */
+    .cost-table th,
+    .cost-table td {
+        padding: 10px 10px;
+        font-size: 0.9rem;
+    }
+
+    /* .ai-overview-facts wrapper */
+    .ai-overview-facts {
+        padding: 20px 16px;
+    }
+}
+
 /* Helper Classes */
 .text-center {
     text-align: center;
