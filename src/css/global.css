@@ -10,6 +10,7 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    scroll-padding-top: calc(5rem + env(safe-area-inset-top, 0px));
     scrollbar-width: none;
 }
 
@@ -95,14 +96,8 @@ section {
     padding: var(--spacing-xl) 0;
 }
 
-/* Skip rendering off-screen sections until scrolled into view */
-.testimonials-section,
-.pricing-section,
-.faq-section,
-.contact-section {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 600px;
-}
+/* Note: content-visibility: auto was removed because it causes incorrect
+   anchor-link scrolling on first click (estimated heights ≠ real heights). */
 
 /* Base Button Style */
 .btn {
