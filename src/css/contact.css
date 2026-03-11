@@ -5,6 +5,7 @@
     color: var(--color-text);
     text-align: center;
     padding: var(--spacing-xl) 0;
+    scroll-margin-top: 80px;
 }
 
 .contact-section h2 {

@@ -7,6 +7,7 @@
     <meta name="theme-color" content="#2a2825" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="content-language" content="de" />
     <!-- PRIMARY SEO META -->
     <title>Ferienwohnung Cochem mit Burgblick & Moselblick | Maringer – Direkt buchen</title>
     <meta name="description"
@@ -152,6 +153,9 @@
           "name": "Ferienwohnung Maringer",
           "description": "Private Ferienwohnung in Cochem mit Burgblick und Moselblick. Zentral, ruhig, mit allem Komfort. Direkt beim Gastgeber buchen.",
           "url": "https://www.ferienwohnung-maringer.de",
+          "sameAs": [
+            "https://www.google.com/maps/place/Ferienwohnung+Maringer/@50.1473026,7.1628051,18z/data=!4m6!3m5!1s0x47be47756243f0c1:0x231945518de5b14a!8m2!3d50.1465255!4d7.1616106!16s%2Fg%2F11b6dg2d9t"
+          ],
           "image": [
             "https://www.ferienwohnung-maringer.de/assets/images/Burgblick-Fensterblick.avif",
             "https://www.ferienwohnung-maringer.de/assets/images/hero-bg.avif"
@@ -266,6 +270,7 @@
     <link rel="stylesheet" href="/src/css/pricing.css" />
     <link rel="stylesheet" href="/src/css/faq.css" />
     <link rel="stylesheet" href="/src/css/contact.css" />
+    <link rel="stylesheet" href="/src/css/inquiry-form.css" />
     <link rel="stylesheet" href="/src/css/testimonials.css" />
     <link rel="stylesheet" href="/src/css/i18n.css" />
 </head>
@@ -845,6 +850,58 @@
                             style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
                             data-i18n="cochem_guide.restaurants_link">Zum Guide →</a>
                     </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 400ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">👋</span>
+                        <h3 class="fact-title"><a href="/spokes/ueber-uns-gastgeber.html"
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.gastgeber_title">Ihre Gastgeber</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.gastgeber_desc">Lernen Sie Christa &amp; Winfried
+                            Maringer kennen — echte Cochemer, die
+                            ihr Wissen über die Region gerne mit Ihnen teilen.</p>
+                        <a href="/spokes/ueber-uns-gastgeber.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.gastgeber_link">Mehr erfahren →</a>
+                    </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 500ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🏰</span>
+                        <h3 class="fact-title"><a href="/spokes/ferienwohnung-cochem-burgblick.html"
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.burgblick_title">Wohnung mit Burgblick</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.burgblick_desc">Warum der schönste Blick auf die
+                            Reichsburg nicht von der Burg ist,
+                            sondern von unserem Balkon.</p>
+                        <a href="/spokes/ferienwohnung-cochem-burgblick.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.burgblick_link">Zum Guide →</a>
+                    </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 600ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🅿️</span>
+                        <h3 class="fact-title"><a href="/spokes/ferienwohnung-cochem-parkplatz.html"
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.parkplatz_title">Wohnung mit Parkplatz</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.parkplatz_desc">Kostenloser Privatparkplatz direkt
+                            am Haus — in Cochem selten und
+                            Gold wert.</p>
+                        <a href="/spokes/ferienwohnung-cochem-parkplatz.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.parkplatz_link">Zum Guide →</a>
+                    </li>
+                    <li class="fact-card js-reveal" style="transition-delay: 700ms">
+                        <div class="fact-card-progress"></div>
+                        <span style="font-size: 2rem;">🥾</span>
+                        <h3 class="fact-title"><a href="/spokes/wandern-cochem-mosel.html"
+                                style="color: inherit; text-decoration: none;"
+                                data-i18n="cochem_guide.wandern_title">Wandern ab Cochem</a></h3>
+                        <p class="fact-desc" data-i18n="cochem_guide.wandern_desc">Die 5 schönsten Routen rund um
+                            Cochem — von unseren Einheimischen
+                            getestet und empfohlen.</p>
+                        <a href="/spokes/wandern-cochem-mosel.html"
+                            style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;"
+                            data-i18n="cochem_guide.wandern_link">Zum Guide →</a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -861,7 +918,91 @@
                         der Regel noch am selben Tag.</p>
                 </div>
 
-                <div class="contact-options js-reveal" style="transition-delay: 100ms">
+                <!-- Inquiry Form Card -->
+                <div class="inquiry-form-card js-reveal" style="transition-delay: 100ms">
+                    <form id="inquiry-form" action="https://formspree.io/f/mqeyqlrq" method="POST">
+                        <!-- Formspree special fields -->
+                        <input type="hidden" name="_subject" value="Neue Anfrage – Ferienwohnung Maringer Cochem">
+                        <input type="hidden" name="_replyto" id="inquiry-replyto">
+                        <div class="inquiry-form-grid">
+                            <!-- Name -->
+                            <div class="inquiry-field">
+                                <input type="text" id="inquiry-name" name="Name" required placeholder=" " autocomplete="name">
+                                <label for="inquiry-name" data-i18n="contact.form_name">Ihr Name</label>
+                                <div class="inquiry-field-error" data-i18n="contact.form_error_required">Bitte ausfüllen</div>
+                            </div>
+                            <!-- Email -->
+                            <div class="inquiry-field">
+                                <input type="email" id="inquiry-email" name="E-Mail" required placeholder=" " autocomplete="email">
+                                <label for="inquiry-email" data-i18n="contact.form_email">E-Mail-Adresse</label>
+                                <div class="inquiry-field-error" data-i18n="contact.form_error_email">Bitte gültige E-Mail eingeben</div>
+                            </div>
+                            <!-- Phone (optional) -->
+                            <div class="inquiry-field full-width">
+                                <input type="tel" id="inquiry-phone" name="Telefon" placeholder=" " autocomplete="tel">
+                                <label for="inquiry-phone" data-i18n="contact.form_phone">Telefon (optional)</label>
+                            </div>
+                            <!-- Check-in -->
+                            <div class="inquiry-field">
+                                <input type="date" id="inquiry-checkin" name="Anreise" required placeholder=" ">
+                                <label for="inquiry-checkin" data-i18n="contact.form_checkin">Anreise</label>
+                                <div class="inquiry-field-error" data-i18n="contact.form_error_required">Bitte ausfüllen</div>
+                            </div>
+                            <!-- Check-out -->
+                            <div class="inquiry-field">
+                                <input type="date" id="inquiry-checkout" name="Abreise" required placeholder=" ">
+                                <label for="inquiry-checkout" data-i18n="contact.form_checkout">Abreise</label>
+                                <div class="inquiry-field-error" data-i18n="contact.form_error_checkout">Abreise muss nach Anreise liegen (mind. 3 Nächte)</div>
+                            </div>
+                            <!-- Guests -->
+                            <div class="inquiry-field full-width">
+                                <select id="inquiry-guests" name="Gäste">
+                                    <option value="1 Person" data-i18n="contact.form_guests_1">1 Person</option>
+                                    <option value="2 Personen" data-i18n="contact.form_guests_2" selected>2 Personen</option>
+                                    <option value="1 Person + Kind" data-i18n="contact.form_guests_1k">1 Person + Kind</option>
+                                    <option value="2 Personen + Kind" data-i18n="contact.form_guests_2k">2 Personen + Kind</option>
+                                </select>
+                                <label for="inquiry-guests" data-i18n="contact.form_guests">Anzahl Gäste</label>
+                            </div>
+                            <!-- Message -->
+                            <div class="inquiry-field full-width">
+                                <textarea id="inquiry-message" name="Nachricht" rows="4" placeholder=" "
+                                    data-i18n-placeholder="contact.form_message_placeholder"></textarea>
+                                <label for="inquiry-message" data-i18n="contact.form_message">Nachricht (optional)</label>
+                            </div>
+                            <!-- Honeypot (anti-spam) -->
+                            <div class="inquiry-hp">
+                                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+                            </div>
+                            <!-- Privacy checkbox -->
+                            <div class="inquiry-privacy">
+                                <input type="checkbox" id="inquiry-privacy" required>
+                                <label for="inquiry-privacy" data-i18n-html data-i18n="contact.form_privacy">Ich habe die <a href="#datenschutz">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.</label>
+                            </div>
+                            <!-- Error banner -->
+                            <div id="inquiry-error-banner" class="inquiry-error-banner" data-i18n="contact.form_error_send">Leider konnte Ihre Anfrage nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.</div>
+                            <!-- Submit -->
+                            <button type="submit" class="inquiry-submit-btn" id="inquiry-submit">
+                                <span class="btn-label" data-i18n="contact.form_submit">📨 Unverbindlich anfragen</span>
+                                <span class="btn-spinner"></span>
+                            </button>
+                        </div>
+                    </form>
+                    <!-- Success message (hidden, shown after submit) -->
+                    <div id="inquiry-success" class="inquiry-success">
+                        <span class="inquiry-success-icon">✅</span>
+                        <h3 data-i18n="contact.form_success_title">Anfrage gesendet!</h3>
+                        <p data-i18n="contact.form_success_text">Vielen Dank für Ihre Anfrage. Wir melden uns in der Regel noch am selben Tag bei Ihnen. Wir freuen uns auf Ihren Besuch!</p>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="contact-divider js-reveal" style="transition-delay: 200ms">
+                    <span data-i18n="contact.form_or_direct">oder kontaktieren Sie uns direkt</span>
+                </div>
+
+                <!-- Direct contact buttons (secondary, horizontal) -->
+                <div class="contact-options-row js-reveal" style="transition-delay: 300ms">
                     <!-- Email -->
                     <a href="mailto:w.maringer43@web.de?subject=Buchungsanfrage%20Ferienwohnung%20Cochem"
                         class="contact-btn email">
@@ -869,7 +1010,7 @@
                             <path
                                 d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                         </svg>
-                        E-Mail schreiben
+                        <span data-i18n="contact.email_btn">E-Mail</span>
                         <div class="contact-btn-progress"></div>
                     </a>
                     <!-- WhatsApp -->
@@ -879,7 +1020,7 @@
                             <path
                                 d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2m0 16.19c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.28z" />
                         </svg>
-                        WhatsApp schreiben
+                        <span data-i18n="contact.whatsapp_btn">WhatsApp</span>
                         <div class="contact-btn-progress"></div>
                     </a>
                     <!-- Phone -->
@@ -888,7 +1029,7 @@
                             <path
                                 d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
                         </svg>
-                        Anrufen: +49 (0) 2671 989089
+                        <span data-i18n="contact.phone_btn">Anrufen</span>
                         <div class="contact-btn-progress"></div>
                     </a>
                 </div>
@@ -957,17 +1098,20 @@
                             Bearbeitung der Anfrage bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre
                             Einwilligung weiter. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
 
-                        <h3>4. Cookies & Analyse-Tools</h3>
+                        <h3>4. Kontaktformular</h3>
+                        <p>Wenn Sie unser Kontaktformular nutzen, werden Ihre Angaben (Name, E-Mail-Adresse, Telefonnummer, Reisedaten, Nachricht) über den Dienst Formspree, Inc. (USA) an uns per E-Mail weitergeleitet. Formspree verarbeitet Ihre Daten ausschließlich zur Übermittlung und speichert diese nicht dauerhaft. Es besteht ein Data Processing Agreement (DPA) mit Formspree gemäß Art. 28 DSGVO. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung).</p>
+
+                        <h3>5. Cookies & Analyse-Tools</h3>
                         <p>Diese Webseite verwendet keine Cookies und keine Analyse- oder Tracking-Tools.</p>
 
-                        <h3>5. SSL-Verschlüsselung</h3>
+                        <h3>6. SSL-Verschlüsselung</h3>
                         <p>Diese Seite nutzt aus Sicherheitsgründen eine SSL-Verschlüsselung.</p>
 
-                        <h3>6. Ihre Rechte</h3>
+                        <h3>7. Ihre Rechte</h3>
                         <p>Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Sperrung oder Löschung Ihrer
                             personenbezogenen Daten. Wenden Sie sich hierzu an die oben genannte Adresse.</p>
 
-                        <h3>7. Beschwerderecht</h3>
+                        <h3>8. Beschwerderecht</h3>
                         <p>Zuständige Aufsichtsbehörde: Der Landesbeauftragte für den Datenschutz und die
                             Informationsfreiheit Rheinland-Pfalz.</p>
                     </div>

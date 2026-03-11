@@ -182,4 +182,138 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, { passive: true });
     }
+
+    // ===== 9. Inquiry Form =====
+    const inquiryForm = document.getElementById('inquiry-form');
+    if (inquiryForm) {
+        const submitBtn = document.getElementById('inquiry-submit');
+        const successEl = document.getElementById('inquiry-success');
+        const errorBanner = document.getElementById('inquiry-error-banner');
+        const checkinInput = document.getElementById('inquiry-checkin');
+        const checkoutInput = document.getElementById('inquiry-checkout');
+
+        // Set min date to today for date inputs
+        const today = new Date().toISOString().split('T')[0];
+        checkinInput.min = today;
+        checkoutInput.min = today;
+
+        // When checkin changes, update checkout min to checkin + 3 days
+        checkinInput.addEventListener('change', () => {
+            if (checkinInput.value) {
+                const checkinDate = new Date(checkinInput.value);
+                const minCheckout = new Date(checkinDate);
+                minCheckout.setDate(minCheckout.getDate() + 3);
+                checkoutInput.min = minCheckout.toISOString().split('T')[0];
+                // If current checkout is before new min, clear it
+                if (checkoutInput.value && checkoutInput.value < checkoutInput.min) {
+                    checkoutInput.value = '';
+                }
+            }
+        });
+
+        /**
+         * Validate form fields, returns true if valid
+         */
+        function validateInquiryForm() {
+            let isValid = true;
+
+            // Clear previous errors
+            inquiryForm.querySelectorAll('.inquiry-field.has-error, .inquiry-privacy.has-error').forEach(el => {
+                el.classList.remove('has-error');
+            });
+            errorBanner.classList.remove('is-visible');
+
+            // Required text/email fields
+            const requiredFields = inquiryForm.querySelectorAll('input[required]:not([type="checkbox"]), select[required]');
+            requiredFields.forEach(field => {
+                if (!field.value.trim()) {
+                    field.closest('.inquiry-field').classList.add('has-error');
+                    isValid = false;
+                }
+            });
+
+            // Email format
+            const emailInput = document.getElementById('inquiry-email');
+            if (emailInput.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailInput.value)) {
+                emailInput.closest('.inquiry-field').classList.add('has-error');
+                isValid = false;
+            }
+
+            // Date validation: checkout must be at least 3 nights after checkin
+            if (checkinInput.value && checkoutInput.value) {
+                const checkin = new Date(checkinInput.value);
+                const checkout = new Date(checkoutInput.value);
+                const diffDays = (checkout - checkin) / (1000 * 60 * 60 * 24);
+                if (diffDays < 3) {
+                    checkoutInput.closest('.inquiry-field').classList.add('has-error');
+                    isValid = false;
+                }
+            }
+
+            // Privacy checkbox
+            const privacyCheckbox = document.getElementById('inquiry-privacy');
+            if (!privacyCheckbox.checked) {
+                privacyCheckbox.closest('.inquiry-privacy').classList.add('has-error');
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
+        // Handle form submission
+        inquiryForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            if (!validateInquiryForm()) {
+                // Scroll to first error
+                const firstError = inquiryForm.querySelector('.has-error');
+                if (firstError) {
+                    firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                return;
+            }
+
+            // Show loading state
+            submitBtn.classList.add('is-loading');
+            submitBtn.disabled = true;
+            errorBanner.classList.remove('is-visible');
+
+            try {
+                // Reformat dates from YYYY-MM-DD to DD.MM.YYYY for the email
+                const formatDate = (isoDate) => {
+                    const [y, m, d] = isoDate.split('-');
+                    return `${d}.${m}.${y}`;
+                };
+
+                // Set reply-to to guest's email
+                const replyToField = document.getElementById('inquiry-replyto');
+                replyToField.value = document.getElementById('inquiry-email').value;
+
+                const formData = new FormData(inquiryForm);
+
+                // Override date values in FormData (don't mutate input values — breaks retry)
+                if (checkinInput.value) formData.set('Anreise', formatDate(checkinInput.value));
+                if (checkoutInput.value) formData.set('Abreise', formatDate(checkoutInput.value));
+
+                const response = await fetch(inquiryForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    // Success: hide form, show success message
+                    inquiryForm.style.display = 'none';
+                    successEl.classList.add('is-visible');
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            } catch {
+                // Show error banner
+                errorBanner.classList.add('is-visible');
+                submitBtn.classList.remove('is-loading');
+                submitBtn.disabled = false;
+            }
+        });
+    }
 });
