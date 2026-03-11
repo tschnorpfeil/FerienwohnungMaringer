@@ -17,7 +17,10 @@ export default defineConfig({
         wetter: resolve(__dirname, 'spokes/wetter-cochem-beste-reisezeit.html'),
         restaurants: resolve(__dirname, 'spokes/restaurants-weingueter-cochem.html'),
         reichsburg: resolve(__dirname, 'spokes/reichsburg-cochem-tickets-fuhrung.html'),
-        ueberuns: resolve(__dirname, 'spokes/ueber-uns-gastgeber.html')
+        ueberuns: resolve(__dirname, 'spokes/ueber-uns-gastgeber.html'),
+        burgblick: resolve(__dirname, 'spokes/ferienwohnung-cochem-burgblick.html'),
+        parkplatz: resolve(__dirname, 'spokes/ferienwohnung-cochem-parkplatz.html'),
+        wandern: resolve(__dirname, 'spokes/wandern-cochem-mosel.html')
       }
     }
   }
