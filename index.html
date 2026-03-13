@@ -54,7 +54,7 @@
           "identifier": "FW-MARINGER-01",
           "additionalType": "Apartment",
           "name": "Ferienwohnung Maringer Cochem",
-          "description": "Zentrale Ferienwohnung in Cochem an der Mosel mit Panoramablick auf die Reichsburg Cochem und das Moseltal. Sonniger Balkon, private Terrasse, kostenloser Parkplatz und High-Speed WLAN. Ideal für Paare, Familien, Moselliebhaber und Workation. Direkt beim Gastgeber buchen — ohne Portalgebühren.",
+          "description": "Zentrale Ferienwohnung in Cochem an der Mosel mit Panoramablick auf die Reichsburg Cochem und das Moseltal. Sonniger Balkon, private Terrasse, kostenloser Parkplatz und High-Speed WLAN. Ideal für Paare, Moselliebhaber und Workation. Direkt beim Gastgeber buchen — ohne Portalgebühren.",
           "url": "https://www.ferienwohnung-maringer.de",
           "telephone": "+49-2671-989089",
           "priceRange": "€€",
@@ -93,11 +93,10 @@
             "additionalType": "EntirePlace",
             "occupancy": {
               "@type": "QuantitativeValue",
-              "value": 3
+              "value": 2
             },
             "bed": [
-              { "@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Double" },
-              { "@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Single" }
+              { "@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Double" }
             ],
             "numberOfBedrooms": 1,
             "numberOfBathroomsTotal": 1,
@@ -392,9 +391,8 @@
                             <path
                                 d="M18 4H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-6 11H6v-2h6v2zm6-4H6V9h12v2z" />
                         </svg>
-                        <h3 class="fact-title" data-i18n="facts.ideal_title">Ideal für Paare (+1 Kind)</h3>
-                        <p class="fact-desc" data-i18n="facts.ideal_desc">Gemütliche Wohnung für 2 Erwachsene, mit Platz
-                            für ein Kind. Sonniger
+                        <h3 class="fact-title" data-i18n="facts.ideal_title">Ideal für Paare</h3>
+                        <p class="fact-desc" data-i18n="facts.ideal_desc">Gemütliche Wohnung für 1–2 Personen. Sonniger
                             Balkon und private Terrasse zum Entspannen mit Moselblick.</p>
                     </li>
                     <li class="fact-card js-reveal" style="transition-delay: 200ms">
@@ -673,13 +671,8 @@
                         <tbody>
                             <tr class="pricing-highlight">
                                 <td><strong data-i18n="pricing.row1_leistung">Übernachtung</strong></td>
-                                <td data-i18n="pricing.row1_details">Ganzjährig, für 2 Personen</td>
+                                <td data-i18n="pricing.row1_details">Ganzjährig, für 1–2 Personen</td>
                                 <td class="price-value" data-i18n="pricing.row1_preis">80 € / Nacht</td>
-                            </tr>
-                            <tr>
-                                <td><strong data-i18n="pricing.row2_leistung">Kinder</strong></td>
-                                <td data-i18n="pricing.row2_details">Ganzjährig</td>
-                                <td data-i18n="pricing.row2_preis">kostenfrei</td>
                             </tr>
                         </tbody>
                     </table>
@@ -695,7 +688,7 @@
                         <li data-i18n="pricing.inkl_5">Endreinigung</li>
                     </ul>
                     <p style="margin-top: 10px; font-size: 0.85rem;" data-i18n="pricing.mindestaufenthalt">
-                        Mindestaufenthalt: 3 Nächte. Exklusive lokaler
+                        Mindestaufenthalt: 5 Nächte. Exklusive lokaler
                         Gästebeitrag.</p>
                 </div>
 
@@ -960,15 +953,13 @@
                             <div class="inquiry-field">
                                 <input type="date" id="inquiry-checkout" name="Abreise" required placeholder=" ">
                                 <label for="inquiry-checkout" data-i18n="contact.form_checkout">Abreise</label>
-                                <div class="inquiry-field-error" data-i18n="contact.form_error_checkout">Abreise muss nach Anreise liegen (mind. 3 Nächte)</div>
+                                <div class="inquiry-field-error" data-i18n="contact.form_error_checkout">Abreise muss nach Anreise liegen (mind. 5 Nächte)</div>
                             </div>
                             <!-- Guests -->
                             <div class="inquiry-field full-width">
                                 <select id="inquiry-guests" name="Gäste">
                                     <option value="1 Person" data-i18n="contact.form_guests_1">1 Person</option>
                                     <option value="2 Personen" data-i18n="contact.form_guests_2" selected>2 Personen</option>
-                                    <option value="1 Person + Kind" data-i18n="contact.form_guests_1k">1 Person + Kind</option>
-                                    <option value="2 Personen + Kind" data-i18n="contact.form_guests_2k">2 Personen + Kind</option>
                                 </select>
                                 <label for="inquiry-guests" data-i18n="contact.form_guests">Anzahl Gäste</label>
                             </div>

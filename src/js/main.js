@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (checkinInput.value) {
                 const checkinDate = new Date(checkinInput.value);
                 const minCheckout = new Date(checkinDate);
-                minCheckout.setDate(minCheckout.getDate() + 3);
+                minCheckout.setDate(minCheckout.getDate() + 5);
                 checkoutInput.min = minCheckout.toISOString().split('T')[0];
                 // If current checkout is before new min, clear it
                 if (checkoutInput.value && checkoutInput.value < checkoutInput.min) {
@@ -276,12 +276,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 isValid = false;
             }
 
-            // Date validation: checkout must be at least 3 nights after checkin
+            // Date validation: checkout must be at least 5 nights after checkin
             if (checkinInput.value && checkoutInput.value) {
                 const checkin = new Date(checkinInput.value);
                 const checkout = new Date(checkoutInput.value);
                 const diffDays = (checkout - checkin) / (1000 * 60 * 60 * 24);
-                if (diffDays < 3) {
+                if (diffDays < 5) {
                     checkoutInput.closest('.inquiry-field').classList.add('has-error');
                     isValid = false;
                 }
