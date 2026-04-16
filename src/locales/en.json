@@ -16,9 +16,9 @@
         "anfragen_mobile": "Check availability"
     },
     "hero": {
-        "badge": "Holiday apartment in Cochem on the Moselle",
-        "h1": "Castle & Moselle views right from your balcony",
-        "subtitle": "Your central, quiet holiday apartment with panoramic views of Reichsburg Castle Cochem. Book directly with the host — no portal fees.",
+        "badge": "Your private accommodation",
+        "h1": "Holiday apartment in Cochem with Castle & Moselle views",
+        "subtitle": "Welcome to Holiday Apartment Maringer. Your central, quiet accommodation with panoramic views of Reichsburg Castle Cochem. Book directly with the host — no portal fees.",
         "cta_primary": "Check availability",
         "cta_secondary": "View the apartment",
         "scroll_label": "Scroll down"
@@ -30,8 +30,8 @@
         "lage_desc": "Central yet quiet. Walking distance to the old town, Reichsburg Castle and the Moselle promenade. Enjoy direct castle & Moselle views from the balcony and terrace.",
         "ideal_title": "Ideal for Couples",
         "ideal_desc": "Cosy apartment for 1–2 persons. Sunny balcony and private terrace for relaxing with Moselle views.",
-        "parking_title": "Free Parking",
-        "parking_desc": "Arrive worry-free. A secure private parking space right at the house is included — rare and valuable in Cochem!",
+        "parking_title": "Private parking included",
+        "parking_desc": "Arrive worry-free. A secure private parking space right at the house is reserved and included in the price.",
         "wifi_title": "High-Speed WiFi & Workation",
         "wifi_desc": "Fast, reliable internet for undisturbed work or evening streaming. Work with a Moselle view."
     },
@@ -61,7 +61,7 @@
         "subtitle": "Central in Cochem — walking distance to the old town, Reichsburg Castle and Moselle promenade.",
         "badge_burg": "5 min to Reichsburg Castle",
         "badge_altstadt": "10 min to old town",
-        "badge_parking": "Free parking",
+        "badge_parking": "Private parking",
         "badge_radweg": "Right on the Moselle cycle path"
     },
     "guide": {
@@ -72,15 +72,15 @@
         "wine_title": "🍷 Wine walks & tasting rooms",
         "wine_desc": "Forget the crowded tourist restaurants. We'll tell you which small winery in the neighbouring village offers the real Moselle taste — including a personal hiking recommendation through the vineyards.",
         "bike_title": "🚲 Moselle cycle path & side valleys",
-        "bike_desc": "The Moselle cycle path runs right past Cochem — perfect for day trips. For those seeking tranquillity, we recommend the side valleys (e.g. Enderttal), where nature is still untouched. Bike storage included.",
+        "bike_desc": "The Moselle cycle path runs right past Cochem — perfect for day trips. For those seeking tranquillity, we recommend the side valleys (e.g. Enderttal), where nature is still untouched. You can safely store your bikes with us.",
         "ship_title": "⛴️ Moselle river cruise & old town",
         "ship_desc": "Discover the Moselle region from the water or stroll through the winding lanes of the old town. Cosy cafés, small boutiques and the Moselle promenade are all within walking distance."
     },
     "cochem_guide": {
         "h2": "Discover Cochem: Your holiday guide",
         "subtitle": "We know Cochem like the back of our hand. Browse our insider guides for the perfect Moselle holiday.",
-        "parken_title": "Parking in Cochem",
-        "parken_desc": "Where to park stress-free? Tips on parking fees and why our free private parking space is worth its weight in gold.",
+        "parken_title": "Arrival & Mobility",
+        "parken_desc": "What's the best route? Tips for your arrival, parking and excursions in the Cochem area.",
         "parken_link": "Read guide →",
         "reichsburg_title": "Reichsburg Castle Cochem",
         "reichsburg_desc": "Tickets, guided tours, opening hours — and why the best view of the castle is from our balcony.",
@@ -105,7 +105,7 @@
         "inklusive_title": "All inclusive — no hidden costs:",
         "inkl_1": "Bed linen & towels",
         "inkl_2": "All utilities (electricity, water, heating)",
-        "inkl_3": "Free private parking right at the house",
+        "inkl_3": "Private parking space right at the house",
         "inkl_4": "High-speed WiFi",
         "inkl_5": "Final cleaning",
         "mindestaufenthalt": "Minimum stay: 5 nights. Excluding local tourist tax.",
@@ -120,8 +120,8 @@
         "a2": "Yes! We offer secure, covered storage for your (electric) bicycles right at the property.",
         "q3": "Are pets/dogs allowed?",
         "a3": "Out of consideration for allergy sufferers, pets are unfortunately not permitted in our apartment. We appreciate your understanding.",
-        "q4": "Is there parking at the apartment?",
-        "a4": "Yes, a free private parking space right at the house is included. In Cochem, that's rare and particularly valuable — saving you the expensive public parking fees.",
+        "q4": "Can we arrive comfortably?",
+        "a4": "Yes, a comfortable private parking space right at the house is ready for you. This allows you to unload your luggage relaxed and start your holiday immediately.",
         "q5": "How much does an overnight stay cost?",
         "a5": "€80 per night for 2 persons, year-round. Bed linen, towels, all utilities, WiFi and parking are already included in the price — no hidden costs."
     },
