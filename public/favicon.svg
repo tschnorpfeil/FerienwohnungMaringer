@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#2a2825"/>
+  <rect x="186" y="140" width="140" height="15" fill="#e8d5b5"/>
+  <rect x="186" y="110" width="30" height="30" fill="#e8d5b5"/>
+  <rect x="241" y="110" width="30" height="30" fill="#e8d5b5"/>
+  <rect x="296" y="110" width="30" height="30" fill="#e8d5b5"/>
+  <text x="256" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="240" font-weight="800" fill="#e8d5b5" text-anchor="middle">M</text>
+</svg>
