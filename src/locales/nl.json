@@ -46,7 +46,8 @@
         "cap_kueche": "Volledig uitgeruste keuken",
         "cap_bad": "Moderne badkamer",
         "cap_schlafzimmer": "Slaapkamer",
-        "cap_schlafzimmer2": "Slaapkamer"
+        "cap_schlafzimmer2": "Slaapkamer",
+        "cap_garten": "Tuin"
     },
     "testimonials": {
         "h2": "Wat onze gasten zeggen",

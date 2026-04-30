@@ -46,7 +46,8 @@
         "cap_kueche": "Fully equipped kitchen",
         "cap_bad": "Modern bathroom",
         "cap_schlafzimmer": "Bedroom",
-        "cap_schlafzimmer2": "Bedroom"
+        "cap_schlafzimmer2": "Bedroom",
+        "cap_garten": "Garden"
     },
     "testimonials": {
         "h2": "What our guests say",

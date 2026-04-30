@@ -46,7 +46,8 @@
         "cap_kueche": "Cuisine entièrement équipée",
         "cap_bad": "Salle de bain moderne",
         "cap_schlafzimmer": "Chambre à coucher",
-        "cap_schlafzimmer2": "Chambre à coucher"
+        "cap_schlafzimmer2": "Chambre à coucher",
+        "cap_garten": "Jardin"
     },
     "testimonials": {
         "h2": "Ce que disent nos clients",
