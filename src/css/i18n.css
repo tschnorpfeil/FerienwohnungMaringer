@@ -78,6 +78,7 @@
     cursor: pointer;
     transition: all 0.2s ease;
     text-align: left;
+    text-decoration: none;
 }
 
 .lang-option:hover {
@@ -164,6 +165,7 @@
     font-weight: 500;
     cursor: pointer;
     transition: all 0.25s ease;
+    text-decoration: none;
 }
 
 .mobile-lang-btn:hover,

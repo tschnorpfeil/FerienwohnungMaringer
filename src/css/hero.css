@@ -267,12 +267,12 @@
 }
 
 .hero-text {
-    max-width: 700px;
+    max-width: 840px;
 }
 
 .hero-text h1 {
     color: white;
-    font-size: clamp(2.8rem, 6vw, 5rem);
+    font-size: clamp(2.6rem, 5vw, 4.5rem);
     font-weight: 800;
     line-height: 1.0;
     letter-spacing: -0.03em;

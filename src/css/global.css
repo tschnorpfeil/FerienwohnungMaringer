@@ -141,8 +141,8 @@ section {
     color: var(--color-text);
 }
 
-/* AI Overview Facts Tables (Spoke Pages) */
-.ai-overview-facts {
+/* Fact summary tables (Spoke Pages) */
+.facts-summary {
     margin: 40px 0 20px;
     background: var(--color-surface);
     border-radius: 8px;
@@ -151,7 +151,7 @@ section {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
-.ai-overview-facts h3 {
+.facts-summary h3 {
     margin-top: 0;
     margin-bottom: 20px;
     color: var(--color-primary);
@@ -234,8 +234,8 @@ section {
         font-size: 0.9rem;
     }
 
-    /* .ai-overview-facts wrapper */
-    .ai-overview-facts {
+    /* .facts-summary wrapper */
+    .facts-summary {
         padding: 20px 16px;
     }
 }

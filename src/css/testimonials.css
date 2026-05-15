@@ -49,6 +49,11 @@
     font-weight: 400;
     color: var(--color-text-light);
     font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.aggregate-rating-count:hover {
+    color: var(--color-primary);
 }
 
 /* Testimonial Grid */
@@ -77,19 +82,6 @@
     border-color: var(--color-secondary);
 }
 
-/* Decorative quote mark */
-.testimonial-quote-mark {
-    position: absolute;
-    top: 20px;
-    left: var(--spacing-md);
-    font-size: 4rem;
-    line-height: 1;
-    color: var(--color-secondary);
-    opacity: 0.3;
-    font-family: Georgia, serif;
-    pointer-events: none;
-}
-
 .testimonial-stars {
     color: #E8A838;
     font-size: 0.95rem;
@@ -101,7 +93,6 @@
     font-size: 1rem;
     line-height: 1.8;
     color: var(--color-text-light);
-    font-style: italic;
     margin-bottom: var(--spacing-md);
 }
 

@@ -12,6 +12,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        en: resolve(__dirname, 'en/index.html'),
+        fr: resolve(__dirname, 'fr/index.html'),
+        nl: resolve(__dirname, 'nl/index.html'),
         parken: resolve(__dirname, 'spokes/cochem-parken.html'),
         hund: resolve(__dirname, 'spokes/ferienwohnung-cochem-mit-hund.html'),
         wetter: resolve(__dirname, 'spokes/wetter-cochem-beste-reisezeit.html'),

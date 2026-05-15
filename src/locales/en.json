@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Holiday Apartment Cochem with Castle & Moselle View | Maringer – Book Direct",
-        "description": "Holiday apartment in Cochem on the Moselle with panoramic views of Reichsburg Castle & Moselle valley. Balcony, terrace, private parking & WiFi. Central & quiet. Book directly with the host – no portal fees.",
-        "og_title": "Holiday Apartment Cochem with Castle & Moselle View | Maringer",
-        "og_description": "Central holiday apartment in Cochem with panoramic views of Reichsburg & Moselle. Balcony, terrace, WiFi and parking included. Book directly with the host."
+        "title": "Private Holiday Apartment Cochem | Castle & Moselle View | Maringer",
+        "description": "Private holiday apartment in Cochem on the Moselle for 1-2 guests: 65 m², castle view, Moselle view, balcony, terrace, WiFi and private parking. Enquire directly with the Maringer family.",
+        "og_title": "Private Holiday Apartment Cochem | Castle & Moselle View | Maringer",
+        "og_description": "Private holiday apartment in Cochem for 1-2 guests with castle view, Moselle view, balcony, terrace and direct host enquiry."
     },
     "nav": {
         "logo": "Holiday Apartment Maringer",
@@ -16,24 +16,46 @@
         "anfragen_mobile": "Check availability"
     },
     "hero": {
-        "badge": "Your private accommodation",
-        "h1": "Holiday apartment in Cochem with Castle & Moselle views",
-        "subtitle": "Welcome to Holiday Apartment Maringer. Your central, quiet accommodation with panoramic views of Reichsburg Castle Cochem. Book directly with the host — no portal fees.",
+        "badge": "Private holiday apartment in Cochem on the Moselle",
+        "h1": "Holiday apartment Cochem with castle & Moselle views",
+        "subtitle": "65 m² for 1–2 guests: balcony, terrace, panoramic views of Reichsburg Castle Cochem and the Moselle valley. Quiet location, about a 10-minute walk to the old town — enquire directly with the Maringer family.",
         "cta_primary": "Check availability",
         "cta_secondary": "View the apartment",
         "scroll_label": "Scroll down"
     },
     "facts": {
         "h2": "Your stay highlights in Cochem",
-        "subtitle": "Key facts for your perfect Moselle holiday, at a glance.",
+        "subtitle": "Key facts for your Moselle holiday, at a glance.",
         "lage_title": "Top Location in Cochem",
         "lage_desc": "Central yet quiet. Walking distance to the old town, Reichsburg Castle and the Moselle promenade. Enjoy direct castle & Moselle views from the balcony and terrace.",
         "ideal_title": "Ideal for Couples",
         "ideal_desc": "Cosy apartment for 1–2 persons. Sunny balcony and private terrace for relaxing with Moselle views.",
-        "parking_title": "Private parking included",
-        "parking_desc": "Arrive worry-free. A secure private parking space right at the house is reserved and included in the price.",
-        "wifi_title": "High-Speed WiFi & Workation",
+        "parking_title": "Private parking space",
+        "parking_desc": "A private parking space directly at the house is reserved for your stay. Arrive comfortably and explore Cochem on foot.",
+        "wifi_title": "WiFi & Workation",
         "wifi_desc": "Fast, reliable internet for undisturbed work or evening streaming. Work with a Moselle view."
+    },
+    "details": {
+        "h2": "The apartment at a glance",
+        "subtitle": "Concrete facts about the accommodation so you can quickly decide whether it fits your holiday.",
+        "size_label": "Living space",
+        "size_value": "65 m²",
+        "guests_label": "Guests",
+        "guests_value": "1–2 persons",
+        "rooms_label": "Rooms",
+        "rooms_value": "bedroom, living area, kitchen, bathroom",
+        "outdoor_label": "Outdoor area",
+        "outdoor_value": "balcony, terrace/covered sitting area and garden",
+        "view_label": "View",
+        "view_value": "Reichsburg Castle Cochem and Moselle valley",
+        "location_label": "Location",
+        "location_value": "quiet, about 10 minutes on foot to the old town",
+        "parking_label": "Arrival",
+        "parking_value": "private parking space directly at the house",
+        "pets_label": "Pets",
+        "pets_value": "not allowed, out of consideration for allergy sufferers",
+        "stay_label": "Minimum stay",
+        "stay_value": "5 nights"
     },
     "gallery": {
         "h2": "Your Holiday Apartment in Cochem",
@@ -51,53 +73,59 @@
         "cap_garten": "Garden"
     },
     "testimonials": {
-        "h2": "What our guests say",
-        "subtitle": "Real experiences from real guests — unfiltered.",
+        "h2": "Reviews & trust",
+        "subtitle": "The current Google rating is linked externally. On this website we show only verifiable accommodation facts.",
         "aggregate": "— 21 reviews on Google",
-        "review1": "We had wonderfully relaxing days in this apartment. The terrace with a view of Reichsburg Castle is the absolute highlight — perfect for cosy afternoons with a glass of Moselle wine.",
-        "review2": "Incomparable location in Cochem. Direct castle view, the old town reachable within a few minutes' walk. The terrace is ideal for warm summer evenings. Highly recommended!",
-        "review3": "Our hidden gem on the Moselle! We come back every year and love it every time. The hosts are warm and always have great tips. Better than any hotel."
+        "review1": "The Google profile and reviews are linked directly so you can check guest feedback independently.",
+        "review2": "You book directly with the Maringer family, without a booking portal and without an anonymous agency.",
+        "review3": "Price, minimum stay, amenities and location are stated openly on the website."
     },
     "map": {
         "h2": "How to find us",
         "subtitle": "Central in Cochem — walking distance to the old town, Reichsburg Castle and Moselle promenade.",
-        "badge_burg": "5 min to Reichsburg Castle",
+        "badge_burg": "View of Reichsburg Castle",
         "badge_altstadt": "10 min to old town",
         "badge_parking": "Private parking",
-        "badge_radweg": "Right on the Moselle cycle path"
+        "badge_radweg": "Moselle cycle path reachable in Cochem"
     },
     "guide": {
         "h2": "What you can experience in Cochem",
-        "subtitle": "Cochem is one of the most popular holiday destinations on the Moselle. Here are our insider tips for your stay.",
+        "subtitle": "Cochem is a well-known holiday destination on the Moselle. Here are practical notes for your stay.",
         "burg_title": "🏰 Reichsburg Castle Cochem",
-        "burg_desc": "The impressive castle towers above the town and is within walking distance of our apartment. A must for culture and history enthusiasts — and the best view is from our balcony.",
+        "burg_desc": "The impressive castle towers above the town and is within walking distance of our apartment. Views of Reichsburg Castle and the Moselle valley are part of the stay: from the balcony, covered sitting area and apartment.",
         "wine_title": "🍷 Wine walks & tasting rooms",
         "wine_desc": "Forget the crowded tourist restaurants. We'll tell you which small winery in the neighbouring village offers the real Moselle taste — including a personal hiking recommendation through the vineyards.",
         "bike_title": "🚲 Moselle cycle path & side valleys",
-        "bike_desc": "The Moselle cycle path runs right past Cochem — perfect for day trips. For those seeking tranquillity, we recommend the side valleys (e.g. Enderttal), where nature is still untouched. You can safely store your bikes with us.",
+        "bike_desc": "The Moselle cycle path is easy to reach in Cochem. For quieter tours, the side valleys such as the Enderttal are a good option. You can store your bikes safely with us.",
         "ship_title": "⛴️ Moselle river cruise & old town",
         "ship_desc": "Discover the Moselle region from the water or stroll through the winding lanes of the old town. Cosy cafés, small boutiques and the Moselle promenade are all within walking distance."
     },
     "cochem_guide": {
         "h2": "Discover Cochem: Your holiday guide",
-        "subtitle": "We know Cochem like the back of our hand. Browse our insider guides for the perfect Moselle holiday.",
+        "subtitle": "Practical notes on castle views, excursions, food and your hosts.",
         "parken_title": "Arrival & Mobility",
         "parken_desc": "What's the best route? Tips for your arrival, parking and excursions in the Cochem area.",
         "parken_link": "Read guide →",
         "reichsburg_title": "Reichsburg Castle Cochem",
-        "reichsburg_desc": "Tickets, guided tours, opening hours — and why the best view of the castle is from our balcony.",
+        "reichsburg_desc": "Notes on Reichsburg Castle — and why the view from the balcony and covered sitting area belongs to the apartment.",
         "reichsburg_link": "Read guide →",
-        "wetter_title": "Weather & Best time to visit",
+        "wetter_title": "Weather & travel season",
         "wetter_desc": "When is the Moselle at its best? Our honest seasonal guide from spring to winter.",
         "wetter_link": "Read guide →",
         "restaurants_title": "Restaurants & Wineries",
-        "restaurants_desc": "The best restaurants and wineries in Cochem — personal recommendations for food lovers.",
-        "restaurants_link": "Read guide →"
+        "restaurants_desc": "Restaurants, wine taverns and wineries in Cochem — personal recommendations for food lovers.",
+        "restaurants_link": "Read guide →",
+        "gastgeber_title": "Your hosts",
+        "gastgeber_desc": "Meet Christa & Winfried Maringer — your direct local contacts.",
+        "gastgeber_link": "Learn more →",
+        "burgblick_title": "Apartment with castle view",
+        "burgblick_desc": "Why the best view of Reichsburg Castle is not from the castle, but from our balcony.",
+        "burgblick_link": "Read guide →"
     },
     "pricing": {
         "h2": "Prices & Inclusions",
         "subtitle": "Transparent conditions. No hidden booking fees like on big portals.",
-        "bestpreis": "💎 Best price — Direct from the host, no portal fees",
+        "bestpreis": "Direct from the host, no portal fees",
         "th_leistung": "Service",
         "th_details": "Details",
         "th_preis": "Price",
@@ -108,7 +136,7 @@
         "inkl_1": "Bed linen & towels",
         "inkl_2": "All utilities (electricity, water, heating)",
         "inkl_3": "Private parking space right at the house",
-        "inkl_4": "High-speed WiFi",
+        "inkl_4": "WiFi",
         "inkl_5": "Final cleaning",
         "mindestaufenthalt": "Minimum stay: 5 nights. Excluding local tourist tax.",
         "cta": "Request your preferred dates — we usually respond the same day"

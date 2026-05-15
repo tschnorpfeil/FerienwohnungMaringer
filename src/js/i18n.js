@@ -9,6 +9,12 @@ import nl from '../locales/nl.json';
 const TRANSLATIONS = { de, en, fr, nl };
 const SUPPORTED_LANGS = ['de', 'en', 'fr', 'nl'];
 const STORAGE_KEY = 'fw-maringer-lang';
+const LANG_PATHS = {
+    de: '/',
+    en: '/en/',
+    fr: '/fr/',
+    nl: '/nl/'
+};
 const LANG_LABELS = {
     de: { flag: '🇩🇪', label: 'Deutsch', short: 'DE' },
     en: { flag: '🇬🇧', label: 'English', short: 'EN' },
@@ -17,22 +23,12 @@ const LANG_LABELS = {
 };
 
 /**
- * Detect the best language for this user.
- * Priority: 1) localStorage  2) navigator.language  3) 'de'
+ * Detect the language from the URL.
+ * The German root and all German guide pages must stay German for canonical SEO.
  */
 function detectLanguage() {
-    // 1. User's saved preference
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
-
-    // 2. Browser language
-    const browserLangs = navigator.languages || [navigator.language || 'de'];
-    for (const bl of browserLangs) {
-        const code = bl.split('-')[0].toLowerCase();
-        if (SUPPORTED_LANGS.includes(code)) return code;
-    }
-
-    // 3. Default to German (it's a German site)
+    const pathLang = window.location.pathname.split('/').filter(Boolean)[0];
+    if (SUPPORTED_LANGS.includes(pathLang)) return pathLang;
     return 'de';
 }
 
@@ -117,9 +113,19 @@ function applyTranslations(lang) {
  */
 function setLanguage(lang) {
     if (!SUPPORTED_LANGS.includes(lang)) lang = 'de';
-    localStorage.setItem(STORAGE_KEY, lang);
     applyTranslations(lang);
     updateSwitcherUI(lang);
+}
+
+function navigateToLanguage(lang) {
+    if (!SUPPORTED_LANGS.includes(lang)) lang = 'de';
+    localStorage.setItem(STORAGE_KEY, lang);
+    const target = LANG_PATHS[lang] || '/';
+    if (window.location.pathname !== target) {
+        window.location.href = target;
+        return;
+    }
+    setLanguage(lang);
 }
 
 /**
@@ -160,11 +166,11 @@ function initSwitcher() {
             </button>
             <div class="lang-dropdown">
                 ${SUPPORTED_LANGS.map(l => `
-                    <button class="lang-option" data-lang="${l}" type="button">
+                    <a class="lang-option" data-lang="${l}" href="${LANG_PATHS[l]}">
                         <span class="lang-option-flag">${LANG_LABELS[l].flag}</span>
                         <span class="lang-option-label">${LANG_LABELS[l].label}</span>
                         <span class="lang-option-short">${LANG_LABELS[l].short}</span>
-                    </button>
+                    </a>
                 `).join('')}
             </div>
         `;
@@ -181,8 +187,9 @@ function initSwitcher() {
 
         // Select language
         dropdown.querySelectorAll('.lang-option').forEach(opt => {
-            opt.addEventListener('click', () => {
-                setLanguage(opt.dataset.lang);
+            opt.addEventListener('click', (event) => {
+                event.preventDefault();
+                navigateToLanguage(opt.dataset.lang);
                 switcher.classList.remove('open');
             });
         });
@@ -199,16 +206,17 @@ function initSwitcher() {
         const langRow = document.createElement('div');
         langRow.className = 'mobile-lang-row';
         langRow.innerHTML = SUPPORTED_LANGS.map(l =>
-            `<button class="mobile-lang-btn" data-lang="${l}" type="button">
+            `<a class="mobile-lang-btn" data-lang="${l}" href="${LANG_PATHS[l]}">
                 <span class="mobile-lang-flag">${LANG_LABELS[l].flag}</span>
                 <span class="mobile-lang-short">${LANG_LABELS[l].short}</span>
-            </button>`
+            </a>`
         ).join('');
         mobileNav.appendChild(langRow);
 
         langRow.querySelectorAll('.mobile-lang-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                setLanguage(btn.dataset.lang);
+            btn.addEventListener('click', (event) => {
+                event.preventDefault();
+                navigateToLanguage(btn.dataset.lang);
             });
         });
     }

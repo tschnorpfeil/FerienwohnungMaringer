@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Ferienwohnung Cochem mit Burgblick & Moselblick | Maringer – Direkt buchen",
-        "description": "Ferienwohnung in Cochem an der Mosel mit Panoramablick auf Reichsburg & Mosel. Balkon, Terrasse, kostenloser Parkplatz & WLAN. Zentral & ruhig. Direkt beim Gastgeber buchen – ohne Portalgebühren.",
-        "og_title": "Ferienwohnung Cochem mit Burgblick & Moselblick | Maringer",
-        "og_description": "Zentrale Ferienwohnung in Cochem mit Panoramablick auf Reichsburg & Mosel. Balkon, Terrasse, WLAN und Parkplatz inklusive. Direkt beim Gastgeber buchen."
+        "title": "Ferienwohnung Cochem privat | Burgblick & Moselblick | Maringer",
+        "description": "Private Ferienwohnung in Cochem an der Mosel für 1-2 Personen: 65 m², Burgblick, Moselblick, Balkon, Terrasse, WLAN und privater PKW-Stellplatz. Direkt bei Familie Maringer anfragen.",
+        "og_title": "Ferienwohnung Cochem privat | Burgblick & Moselblick | Maringer",
+        "og_description": "Private Ferienwohnung in Cochem für 1-2 Personen mit Reichsburgblick, Moselblick, Balkon, Terrasse und direkter Anfrage beim Gastgeber."
     },
     "nav": {
         "logo": "Ferienwohnung Maringer",
@@ -16,24 +16,46 @@
         "anfragen_mobile": "Verfügbarkeit anfragen"
     },
     "hero": {
-        "badge": "Ferienwohnung in Cochem an der Mosel",
-        "h1": "Burg- & Moselblick direkt vom Balkon",
-        "subtitle": "Ihre zentrale, ruhige Ferienwohnung mit Panoramablick auf die Reichsburg Cochem. Direkt beim Gastgeber buchen — ohne Portalgebühren.",
+        "badge": "Private Ferienwohnung in Cochem an der Mosel",
+        "h1": "Ferienwohnung Cochem mit Burgblick & Moselblick",
+        "subtitle": "65 m² für 1–2 Personen: Balkon, Terrasse/Freisitz, Panoramablick auf die Reichsburg Cochem und das Moseltal. Ruhig gelegen, ca. 10 Gehminuten zur Altstadt — direkt bei Familie Maringer anfragen.",
         "cta_primary": "Verfügbarkeit anfragen",
         "cta_secondary": "Wohnung ansehen",
         "scroll_label": "Nach unten scrollen"
     },
     "facts": {
         "h2": "Ihre Aufenthalts-Highlights in Cochem",
-        "subtitle": "Die wichtigsten Daten für Ihren perfekten Moselurlaub, auf einen Blick.",
+        "subtitle": "Die wichtigsten Daten für Ihren Moselurlaub, auf einen Blick.",
         "lage_title": "Top Lage in Cochem",
         "lage_desc": "Zentral, aber ruhig. Fußläufig zur Altstadt, Reichsburg und Moselpromenade. Vom Balkon und der Terrasse genießen Sie direkten Burg- & Moselblick.",
         "ideal_title": "Ideal für Paare",
         "ideal_desc": "Gemütliche Wohnung für 1–2 Personen. Sonniger Balkon und private Terrasse zum Entspannen mit Moselblick.",
-        "parking_title": "Kostenloser Parkplatz",
-        "parking_desc": "Sorgenfrei anreisen. Ein sicherer Privatparkplatz direkt am Haus ist für Sie inklusive — in Cochem selten und wertvoll!",
-        "wifi_title": "High-Speed WLAN & Workation",
+        "parking_title": "Privater PKW-Stellplatz",
+        "parking_desc": "Ein privater Stellplatz direkt am Haus ist für Ihren Aufenthalt reserviert. So können Sie bequem anreisen und Cochem zu Fuß erkunden.",
+        "wifi_title": "WLAN & Workation",
         "wifi_desc": "Schnelles, stabiles Internet für ungestörtes Arbeiten oder abendliches Streaming. Arbeiten mit Moselblick."
+    },
+    "details": {
+        "h2": "Die Ferienwohnung auf einen Blick",
+        "subtitle": "Konkrete Daten zur Unterkunft, damit Sie schnell entscheiden können, ob die Wohnung zu Ihrem Urlaub passt.",
+        "size_label": "Wohnfläche",
+        "size_value": "65 m²",
+        "guests_label": "Gäste",
+        "guests_value": "1–2 Personen",
+        "rooms_label": "Räume",
+        "rooms_value": "Schlafzimmer, Wohnbereich, Küche, Bad",
+        "outdoor_label": "Außenbereich",
+        "outdoor_value": "Balkon, Terrasse/Freisitz und Garten",
+        "view_label": "Aussicht",
+        "view_value": "Reichsburg Cochem und Moseltal",
+        "location_label": "Lage",
+        "location_value": "ruhig, ca. 10 Gehminuten zur Altstadt",
+        "parking_label": "Anreise",
+        "parking_value": "privater PKW-Stellplatz direkt am Haus",
+        "pets_label": "Haustiere",
+        "pets_value": "nicht erlaubt, aus Rücksicht auf Allergiker",
+        "stay_label": "Mindestaufenthalt",
+        "stay_value": "5 Nächte"
     },
     "gallery": {
         "h2": "Ihre Ferienwohnung in Cochem",
@@ -51,53 +73,59 @@
         "cap_garten": "Garten"
     },
     "testimonials": {
-        "h2": "Was unsere Gäste sagen",
-        "subtitle": "Echte Erfahrungen von echten Gästen — ohne Filter.",
+        "h2": "Bewertungen & Vertrauen",
+        "subtitle": "Die aktuelle Google-Bewertung ist extern verlinkt. Auf der Website zeigen wir nur belegbare Unterkunftsdaten.",
         "aggregate": "— 21 Bewertungen auf Google",
-        "review1": "Wir hatten wunderbar entspannte Tage in dieser Ferienwohnung. Die Terrasse mit Blick auf die Reichsburg ist das absolute Highlight — perfekt für gemütliche Nachmittage mit einem Glas Moselwein.",
-        "review2": "Unvergleichliche Lage in Cochem. Direkter Burgblick, die Altstadt in wenigen Gehminuten erreichbar. Die Terrasse ist ideal für laue Sommerabende. Absolut empfehlenswert!",
-        "review3": "Unser Geheimtipp an der Mosel! Wir kommen jedes Jahr wieder und freuen uns jedes Mal aufs Neue. Die Gastgeber sind herzlich und immer für einen guten Tipp zu haben. Besser als jedes Hotel."
+        "review1": "Google-Profil und Bewertungen sind direkt verlinkt, damit Sie die Rückmeldungen unabhängig prüfen können.",
+        "review2": "Sie buchen direkt bei Familie Maringer, ohne Vermittlungsportal und ohne anonyme Agentur.",
+        "review3": "Preis, Mindestaufenthalt, Ausstattung und Lage sind offen auf der Website genannt."
     },
     "map": {
         "h2": "So finden Sie uns",
         "subtitle": "Zentral in Cochem — fußläufig zur Altstadt, Reichsburg und Moselpromenade.",
-        "badge_burg": "5 Min. zur Reichsburg",
+        "badge_burg": "Blick auf die Reichsburg",
         "badge_altstadt": "10 Min. zur Altstadt",
-        "badge_parking": "Kostenloser Parkplatz",
-        "badge_radweg": "Direkt am Moselradweg"
+        "badge_parking": "Privater Stellplatz",
+        "badge_radweg": "Moselradweg in Cochem erreichbar"
     },
     "guide": {
         "h2": "Was Sie in Cochem erleben können",
-        "subtitle": "Cochem zählt zu den beliebtesten Urlaubsorten an der Mosel. Hier unsere Insider-Tipps für Ihren Aufenthalt.",
+        "subtitle": "Cochem ist ein bekannter Urlaubsort an der Mosel. Hier finden Sie praktische Hinweise für Ihren Aufenthalt.",
         "burg_title": "🏰 Reichsburg Cochem",
-        "burg_desc": "Die beeindruckende Burg thront über der Stadt und ist fußläufig von unserer Ferienwohnung erreichbar. Ein absolutes Muss für Kultur- und Geschichtsinteressierte — und den schönsten Blick genießen Sie von unserem Balkon.",
+        "burg_desc": "Die beeindruckende Burg thront über der Stadt und ist fußläufig von unserer Ferienwohnung erreichbar. Der Blick auf Reichsburg und Moseltal gehört bei uns zur Unterkunft: von Balkon, Freisitz und Wohnung aus.",
         "wine_title": "🍷 Weinwanderungen & Probierstuben",
-        "wine_desc": "Vergessen Sie die überfüllten Touristenlokale. Wir verraten Ihnen, bei welchem kleinen Winzer im Nachbarort Sie die echte Mosel schmecken — inklusive persönlicher Wanderempfehlung durch die Weinberge.",
+        "wine_desc": "In Cochem und den Nachbarorten finden Sie Weinstuben, Vinotheken und kleine Winzerbetriebe. Gerne geben wir Ihnen vor Ort persönliche Empfehlungen.",
         "bike_title": "🚲 Moselradweg & Seitentäler",
-        "bike_desc": "Der Moselradweg führt direkt an Cochem vorbei — perfekt für Tagestouren. Für Ruhesuchende empfehlen wir die Seitentäler (z.B. Enderttal), wo die Natur noch unberührt ist. Fahrradstellplatz inklusive.",
+        "bike_desc": "Der Moselradweg ist in Cochem gut erreichbar. Für ruhigere Touren bieten sich die Seitentäler an, etwa das Enderttal. Fahrräder können Sie bei uns sicher unterbringen.",
         "ship_title": "⛴️ Moselschifffahrt & Altstadt",
         "ship_desc": "Entdecken Sie die Moselregion vom Wasser aus oder bummeln Sie durch die verwinkelten Gassen der Altstadt. Gemütliche Cafés, kleine Boutiquen und die Moselpromenade sind fußläufig erreichbar."
     },
     "cochem_guide": {
-        "h2": "Cochem entdecken: Ihr Urlaubsguide",
-        "subtitle": "Wir kennen Cochem wie unsere Westentasche. Stöbern Sie in unseren Insider-Guides für den perfekten Moselurlaub.",
-        "parken_title": "Parken in Cochem",
-        "parken_desc": "Wo parkt man stressfrei? Tipps zu Parkgebühren und warum unser kostenloser Privatparkplatz Gold wert ist.",
+        "h2": "Cochem entdecken: Praktische Urlaubshinweise",
+        "subtitle": "Kurze, hilfreiche Informationen zu Burgblick, Ausflügen, Genuss und Ihren Gastgebern.",
+        "parken_title": "Anreise & Mobilität",
+        "parken_desc": "Hinweise zur Anreise, zum privaten Stellplatz an der Ferienwohnung und zu Wegen in Cochem.",
         "parken_link": "Zum Guide →",
         "reichsburg_title": "Die Reichsburg Cochem",
-        "reichsburg_desc": "Tickets, Führungen, Öffnungszeiten — und warum der schönste Blick auf die Burg von unserem Balkon ist.",
+        "reichsburg_desc": "Hinweise zur Reichsburg — und warum der Blick von Balkon und Freisitz zur Wohnung gehört.",
         "reichsburg_link": "Zum Guide →",
-        "wetter_title": "Wetter & Beste Reisezeit",
+        "wetter_title": "Wetter & Reisezeit",
         "wetter_desc": "Wann lohnt sich die Mosel am meisten? Unser ehrlicher Jahreszeiten-Guide von Frühling bis Winter.",
         "wetter_link": "Zum Guide →",
         "restaurants_title": "Restaurants & Weingüter",
-        "restaurants_desc": "Die besten Lokale und Winzer in Cochem — persönliche Empfehlungen für Genießer.",
-        "restaurants_link": "Zum Guide →"
+        "restaurants_desc": "Restaurants, Weinstuben und Winzer in Cochem — persönliche Empfehlungen für Genießer.",
+        "restaurants_link": "Zum Guide →",
+        "gastgeber_title": "Ihre Gastgeber",
+        "gastgeber_desc": "Lernen Sie Christa & Winfried Maringer kennen — Ihre direkten Ansprechpartner vor Ort.",
+        "gastgeber_link": "Mehr erfahren →",
+        "burgblick_title": "Wohnung mit Burgblick",
+        "burgblick_desc": "Wie Sie Reichsburg, Moseltal und Cochem direkt von Balkon und Freisitz aus erleben.",
+        "burgblick_link": "Zum Guide →"
     },
     "pricing": {
         "h2": "Preise & Inklusivleistungen",
         "subtitle": "Transparente Konditionen. Keine versteckten Buchungsgebühren wie auf großen Portalen.",
-        "bestpreis": "💎 Bestpreis — Direkt beim Gastgeber, ohne Portalgebühren",
+        "bestpreis": "Direkt beim Gastgeber, ohne Portalgebühren",
         "th_leistung": "Leistung",
         "th_details": "Details",
         "th_preis": "Preis",
@@ -107,8 +135,8 @@
         "inklusive_title": "Alles inklusive — keine versteckten Kosten:",
         "inkl_1": "Bettwäsche & Handtücher",
         "inkl_2": "Alle Nebenkosten (Strom, Wasser, Heizung)",
-        "inkl_3": "Kostenloser Privat-Parkplatz direkt am Haus",
-        "inkl_4": "High-Speed WLAN",
+        "inkl_3": "Privater PKW-Stellplatz direkt am Haus",
+        "inkl_4": "WLAN",
         "inkl_5": "Endreinigung",
         "mindestaufenthalt": "Mindestaufenthalt: 5 Nächte. Exklusive lokaler Gästebeitrag.",
         "cta": "Wunschtermin anfragen — wir antworten in der Regel noch am selben Tag"
@@ -123,7 +151,7 @@
         "q3": "Sind Haustiere/Hunde erlaubt?",
         "a3": "Aus Rücksicht auf Allergiker sind Haustiere in unserer Ferienwohnung leider nicht gestattet. Wir bitten um Ihr Verständnis.",
         "q4": "Gibt es einen Parkplatz an der Ferienwohnung?",
-        "a4": "Ja, ein kostenloser Privatparkplatz direkt am Haus ist für Sie inklusive. In Cochem ist das selten und besonders wertvoll — so sparen Sie sich die teuren öffentlichen Parkgebühren.",
+        "a4": "Ja, ein privater PKW-Stellplatz direkt am Haus ist für Ihren Aufenthalt reserviert. Sie können bequem ausladen und Cochem anschließend zu Fuß erkunden.",
         "q5": "Was kostet eine Übernachtung?",
         "a5": "80€ pro Nacht für 2 Personen, ganzjährig. Bettwäsche, Handtücher, alle Nebenkosten, WLAN und Parkplatz sind im Preis bereits enthalten — keine versteckten Kosten."
     },

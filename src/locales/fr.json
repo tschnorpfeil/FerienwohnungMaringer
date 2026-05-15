@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Appartement de vacances Cochem avec vue château & Moselle | Maringer – Réservation directe",
-        "description": "Appartement de vacances à Cochem sur la Moselle avec vue panoramique sur le château de Reichsburg & la Moselle. Balcon, terrasse, parking privé & WiFi. Central & calme. Réservez directement auprès de l'hôte – sans frais de portail.",
-        "og_title": "Appartement de vacances Cochem avec vue château & Moselle | Maringer",
-        "og_description": "Appartement de vacances central à Cochem avec vue panoramique sur le Reichsburg & la Moselle. Balcon, terrasse, WiFi et parking inclus. Réservez directement."
+        "title": "Appartement privé à Cochem | Vue château & Moselle | Maringer",
+        "description": "Appartement de vacances privé à Cochem sur la Moselle pour 1-2 personnes : 65 m², vue château, vue Moselle, balcon, terrasse, WiFi et parking privé. Demande directe auprès de la famille Maringer.",
+        "og_title": "Appartement privé à Cochem | Vue château & Moselle | Maringer",
+        "og_description": "Appartement privé à Cochem pour 1-2 personnes avec vue château, vue Moselle, balcon, terrasse et contact direct avec l'hôte."
     },
     "nav": {
         "logo": "Appartement Maringer",
@@ -16,24 +16,46 @@
         "anfragen_mobile": "Vérifier la disponibilité"
     },
     "hero": {
-        "badge": "Votre hébergement privé",
-        "h1": "Appartement de vacances à Cochem avec vue sur le château & la Moselle",
-        "subtitle": "Bienvenue à l'appartement de vacances Maringer. Votre hébergement central et calme avec vue panoramique sur le château de Reichsburg Cochem. Réservez directement auprès de l'hôte — sans frais de portail.",
+        "badge": "Appartement privé à Cochem sur la Moselle",
+        "h1": "Appartement de vacances à Cochem avec vue château & Moselle",
+        "subtitle": "65 m² pour 1–2 personnes : balcon, terrasse, vue panoramique sur le château de Reichsburg Cochem et la vallée de la Moselle. Emplacement calme, à environ 10 minutes à pied de la vieille ville — demande directe auprès de la famille Maringer.",
         "cta_primary": "Vérifier la disponibilité",
         "cta_secondary": "Voir l'appartement",
         "scroll_label": "Défiler vers le bas"
     },
     "facts": {
         "h2": "Les atouts de votre séjour à Cochem",
-        "subtitle": "Les informations essentielles pour des vacances parfaites sur la Moselle, en un coup d'œil.",
+        "subtitle": "Les informations essentielles pour votre séjour sur la Moselle, en un coup d'œil.",
         "lage_title": "Emplacement top à Cochem",
         "lage_desc": "Central mais calme. À distance de marche de la vieille ville, du château de Reichsburg et de la promenade de la Moselle. Profitez d'une vue directe sur le château & la Moselle depuis le balcon et la terrasse.",
         "ideal_title": "Idéal pour les couples",
         "ideal_desc": "Appartement confortable pour 1–2 personnes. Balcon ensoleillé et terrasse privée pour se détendre face à la Moselle.",
-        "parking_title": "Parking privé inclus",
-        "parking_desc": "Arrivez l'esprit tranquille. Une place de parking privée sécurisée directement à la maison est réservée et incluse dans le prix.",
-        "wifi_title": "WiFi haut débit & Workation",
+        "parking_title": "Place de parking privée",
+        "parking_desc": "Une place de parking privée directement à la maison est réservée pour votre séjour. Arrivez confortablement et découvrez Cochem à pied.",
+        "wifi_title": "WiFi & travail à distance",
         "wifi_desc": "Internet rapide et fiable pour travailler sans interruption ou profiter d'une soirée streaming. Travailler avec vue sur la Moselle."
+    },
+    "details": {
+        "h2": "L'appartement en bref",
+        "subtitle": "Les informations concrètes sur l'hébergement pour savoir rapidement s'il correspond à vos vacances.",
+        "size_label": "Surface habitable",
+        "size_value": "65 m²",
+        "guests_label": "Voyageurs",
+        "guests_value": "1–2 personnes",
+        "rooms_label": "Pièces",
+        "rooms_value": "chambre, salon, cuisine, salle de bain",
+        "outdoor_label": "Extérieur",
+        "outdoor_value": "balcon, terrasse/espace couvert et jardin",
+        "view_label": "Vue",
+        "view_value": "château de Reichsburg Cochem et vallée de la Moselle",
+        "location_label": "Emplacement",
+        "location_value": "calme, environ 10 minutes à pied de la vieille ville",
+        "parking_label": "Arrivée",
+        "parking_value": "place de parking privée directement à la maison",
+        "pets_label": "Animaux",
+        "pets_value": "non autorisés, par respect pour les personnes allergiques",
+        "stay_label": "Séjour minimum",
+        "stay_value": "5 nuits"
     },
     "gallery": {
         "h2": "Votre appartement de vacances à Cochem",
@@ -51,53 +73,59 @@
         "cap_garten": "Jardin"
     },
     "testimonials": {
-        "h2": "Ce que disent nos clients",
-        "subtitle": "Des expériences authentiques de vrais clients — sans filtre.",
+        "h2": "Avis & confiance",
+        "subtitle": "La note Google actuelle est liée directement. Sur ce site, nous affichons uniquement des informations vérifiables sur l'hébergement.",
         "aggregate": "— 21 avis sur Google",
-        "review1": "Nous avons passé des jours merveilleusement reposants dans cet appartement. La terrasse avec vue sur le château de Reichsburg est le point fort absolu — parfaite pour des après-midis tranquilles avec un verre de vin de la Moselle.",
-        "review2": "Emplacement incomparable à Cochem. Vue directe sur le château, la vieille ville accessible en quelques minutes à pied. La terrasse est idéale pour les douces soirées d'été. Absolument recommandable !",
-        "review3": "Notre pépite cachée sur la Moselle ! Nous revenons chaque année et nous nous réjouissons à chaque fois. Les hôtes sont chaleureux et toujours de bon conseil. Mieux que n'importe quel hôtel."
+        "review1": "Le profil Google et les avis sont liés directement afin que vous puissiez vérifier les retours indépendamment.",
+        "review2": "Vous réservez directement auprès de la famille Maringer, sans portail de réservation ni agence anonyme.",
+        "review3": "Le prix, le séjour minimum, les équipements et l'emplacement sont indiqués clairement sur le site."
     },
     "map": {
         "h2": "Comment nous trouver",
         "subtitle": "Au centre de Cochem — à distance de marche de la vieille ville, du château de Reichsburg et de la promenade de la Moselle.",
-        "badge_burg": "5 min du château",
+        "badge_burg": "Vue sur le château",
         "badge_altstadt": "10 min de la vieille ville",
         "badge_parking": "Parking privé",
-        "badge_radweg": "Directement sur la piste cyclable de la Moselle"
+        "badge_radweg": "Piste cyclable accessible à Cochem"
     },
     "guide": {
         "h2": "Ce que vous pouvez vivre à Cochem",
-        "subtitle": "Cochem fait partie des destinations de vacances les plus populaires sur la Moselle. Voici nos conseils d'initiés pour votre séjour.",
+        "subtitle": "Cochem est une destination connue sur la Moselle. Voici des informations pratiques pour votre séjour.",
         "burg_title": "🏰 Château de Reichsburg Cochem",
-        "burg_desc": "L'impressionnant château domine la ville et est accessible à pied depuis notre appartement. Un incontournable pour les amateurs de culture et d'histoire — et la plus belle vue se trouve depuis notre balcon.",
+        "burg_desc": "L'impressionnant château domine la ville et est accessible à pied depuis notre appartement. La vue sur le Reichsburg et la vallée de la Moselle fait partie du séjour: depuis le balcon, la terrasse couverte et l'appartement.",
         "wine_title": "🍷 Randonnées viticoles & salles de dégustation",
         "wine_desc": "Oubliez les restaurants touristiques bondés. Nous vous révélons chez quel petit vigneron du village voisin vous goûterez le vrai goût de la Moselle — avec une recommandation de randonnée personnelle à travers les vignobles.",
         "bike_title": "🚲 Piste cyclable de la Moselle & vallées latérales",
-        "bike_desc": "La piste cyclable de la Moselle passe directement par Cochem — parfaite pour les excursions d'une journée. Pour les amateurs de calme, nous recommandons les vallées latérales (p. ex. Enderttal), où la nature est encore intacte. Vous pouvez ranger vos vélos en toute sécurité chez nous.",
+        "bike_desc": "La piste cyclable de la Moselle est facilement accessible à Cochem. Pour des sorties plus calmes, les vallées latérales comme l'Enderttal sont une bonne option. Vous pouvez ranger vos vélos en sécurité chez nous.",
         "ship_title": "⛴️ Croisière sur la Moselle & vieille ville",
         "ship_desc": "Découvrez la région mosellane depuis l'eau ou flânez dans les ruelles sinueuses de la vieille ville. Cafés confortables, petites boutiques et la promenade de la Moselle sont accessibles à pied."
     },
     "cochem_guide": {
         "h2": "Découvrir Cochem : Votre guide de vacances",
-        "subtitle": "Nous connaissons Cochem comme notre poche. Parcourez nos guides d'initiés pour des vacances parfaites sur la Moselle.",
+        "subtitle": "Informations pratiques sur la vue sur le château, les excursions, les adresses gourmandes et vos hôtes.",
         "parken_title": "Arrivée & Mobilité",
         "parken_desc": "Quel est le meilleur itinéraire ? Conseils pour votre arrivée, le stationnement et les excursions dans la région de Cochem.",
         "parken_link": "Lire le guide →",
         "reichsburg_title": "Le château de Reichsburg Cochem",
-        "reichsburg_desc": "Billets, visites guidées, horaires d'ouverture — et pourquoi la plus belle vue sur le château est depuis notre balcon.",
+        "reichsburg_desc": "Notes sur le château de Reichsburg — et pourquoi la vue depuis le balcon et la terrasse fait partie de l'appartement.",
         "reichsburg_link": "Lire le guide →",
-        "wetter_title": "Météo & meilleure période",
+        "wetter_title": "Météo & saison de voyage",
         "wetter_desc": "Quand la Moselle est-elle à son meilleur ? Notre guide honnête des saisons, du printemps à l'hiver.",
         "wetter_link": "Lire le guide →",
         "restaurants_title": "Restaurants & domaines viticoles",
-        "restaurants_desc": "Les meilleurs restaurants et vignerons de Cochem — recommandations personnelles pour les gourmets.",
-        "restaurants_link": "Lire le guide →"
+        "restaurants_desc": "Restaurants, tavernes à vin et domaines viticoles à Cochem — recommandations personnelles pour les gourmets.",
+        "restaurants_link": "Lire le guide →",
+        "gastgeber_title": "Vos hôtes",
+        "gastgeber_desc": "Faites connaissance avec Christa & Winfried Maringer — vos contacts directs sur place.",
+        "gastgeber_link": "En savoir plus →",
+        "burgblick_title": "Appartement avec vue château",
+        "burgblick_desc": "Pourquoi la plus belle vue sur le château de Reichsburg n'est pas depuis le château, mais depuis notre balcon.",
+        "burgblick_link": "Lire le guide →"
     },
     "pricing": {
         "h2": "Tarifs & prestations incluses",
         "subtitle": "Conditions transparentes. Pas de frais de réservation cachés comme sur les grands portails.",
-        "bestpreis": "💎 Meilleur prix — Directement chez l'hôte, sans frais de portail",
+        "bestpreis": "Directement chez l'hôte, sans frais de portail",
         "th_leistung": "Prestation",
         "th_details": "Détails",
         "th_preis": "Prix",
@@ -108,7 +136,7 @@
         "inkl_1": "Linge de lit & serviettes",
         "inkl_2": "Tous les charges (électricité, eau, chauffage)",
         "inkl_3": "Place de parking privée directement à la maison",
-        "inkl_4": "WiFi haut débit",
+        "inkl_4": "WiFi",
         "inkl_5": "Nettoyage final",
         "mindestaufenthalt": "Séjour minimum : 5 nuits. Hors taxe de séjour locale.",
         "cta": "Demandez vos dates souhaitées — nous répondons généralement le jour même"
