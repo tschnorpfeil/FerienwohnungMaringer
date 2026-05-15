@@ -74,11 +74,14 @@
     },
     "testimonials": {
         "h2": "Bewertungen & Vertrauen",
-        "subtitle": "Die aktuelle Google-Bewertung ist extern verlinkt. Auf der Website zeigen wir nur belegbare Unterkunftsdaten.",
-        "aggregate": "— 21 Bewertungen auf Google",
-        "review1": "Google-Profil und Bewertungen sind direkt verlinkt, damit Sie die Rückmeldungen unabhängig prüfen können.",
-        "review2": "Sie buchen direkt bei Familie Maringer, ohne Vermittlungsportal und ohne anonyme Agentur.",
-        "review3": "Preis, Mindestaufenthalt, Ausstattung und Lage sind offen auf der Website genannt."
+        "subtitle": "Bewertungen prüfen Sie ungefiltert auf Google. Was eine Direktbuchung bei Familie Maringer bedeutet, sehen Sie hier.",
+        "aggregate": "21 Bewertungen auf Google ansehen →",
+        "pillar1_title": "Bewertungen unabhängig prüfbar",
+        "pillar1_text": "Direkter Link zu Google. Jede Rückmeldung lesen Sie ungefiltert in voller Länge — ohne Auswahl durch uns.",
+        "pillar2_title": "Direkt bei der Familie gebucht",
+        "pillar2_text": "Kein Vermittlungsportal, keine anonyme Agentur. Persönlicher Kontakt mit Familie Maringer — von der Anfrage bis zur Schlüsselübergabe.",
+        "pillar3_title": "Transparente Konditionen",
+        "pillar3_text": "Preis, Mindestaufenthalt, Ausstattung und Lage stehen offen auf der Website. Keine versteckten Gebühren, keine Überraschungen bei der Buchung."
     },
     "map": {
         "h2": "So finden Sie uns",

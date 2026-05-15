@@ -74,11 +74,14 @@
     },
     "testimonials": {
         "h2": "Avis & confiance",
-        "subtitle": "La note Google actuelle est liée directement. Sur ce site, nous affichons uniquement des informations vérifiables sur l'hébergement.",
-        "aggregate": "— 21 avis sur Google",
-        "review1": "Le profil Google et les avis sont liés directement afin que vous puissiez vérifier les retours indépendamment.",
-        "review2": "Vous réservez directement auprès de la famille Maringer, sans portail de réservation ni agence anonyme.",
-        "review3": "Le prix, le séjour minimum, les équipements et l'emplacement sont indiqués clairement sur le site."
+        "subtitle": "Lisez tous les avis sans filtre sur Google. Voici ce qu'une réservation directe auprès de la famille Maringer vous apporte.",
+        "aggregate": "Voir les 21 avis sur Google →",
+        "pillar1_title": "Avis vérifiables en toute indépendance",
+        "pillar1_text": "Lien direct vers Google. Lisez chaque avis sans filtre, dans son intégralité — sans sélection de notre part.",
+        "pillar2_title": "Réservation directe auprès de la famille",
+        "pillar2_text": "Pas de portail de réservation, pas d'agence anonyme. Contact personnel avec la famille Maringer — de la première demande à la remise des clés.",
+        "pillar3_title": "Conditions transparentes",
+        "pillar3_text": "Prix, durée minimum de séjour, équipements et emplacement sont indiqués ouvertement sur le site. Aucun frais caché, aucune surprise à la réservation."
     },
     "map": {
         "h2": "Comment nous trouver",

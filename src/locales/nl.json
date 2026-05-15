@@ -74,11 +74,14 @@
     },
     "testimonials": {
         "h2": "Beoordelingen & vertrouwen",
-        "subtitle": "De actuele Google-beoordeling is extern gelinkt. Op deze website tonen we alleen controleerbare gegevens over de accommodatie.",
-        "aggregate": "— 21 beoordelingen op Google",
-        "review1": "Het Google-profiel en de beoordelingen zijn direct gelinkt, zodat u gastenfeedback onafhankelijk kunt controleren.",
-        "review2": "U boekt direct bij familie Maringer, zonder boekingsportaal en zonder anoniem agentschap.",
-        "review3": "Prijs, minimumverblijf, voorzieningen en ligging worden duidelijk op de website vermeld."
+        "subtitle": "Lees alle beoordelingen ongefilterd op Google. Hier ziet u wat een directe boeking bij familie Maringer voor u betekent.",
+        "aggregate": "Bekijk alle 21 beoordelingen op Google →",
+        "pillar1_title": "Beoordelingen onafhankelijk te verifiëren",
+        "pillar1_text": "Directe link naar Google. Lees elke beoordeling ongefilterd en in zijn geheel — niets door ons geselecteerd.",
+        "pillar2_title": "Direct geboekt bij de familie",
+        "pillar2_text": "Geen boekingsportaal, geen anoniem bureau. Persoonlijk contact met familie Maringer — van eerste aanvraag tot sleuteloverdracht.",
+        "pillar3_title": "Transparante voorwaarden",
+        "pillar3_text": "Prijs, minimumverblijf, voorzieningen en ligging staan open op de website. Geen verborgen kosten, geen verrassingen bij het boeken."
     },
     "map": {
         "h2": "Hoe u ons vindt",

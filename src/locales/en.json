@@ -74,11 +74,14 @@
     },
     "testimonials": {
         "h2": "Reviews & trust",
-        "subtitle": "The current Google rating is linked externally. On this website we show only verifiable accommodation facts.",
-        "aggregate": "— 21 reviews on Google",
-        "review1": "The Google profile and reviews are linked directly so you can check guest feedback independently.",
-        "review2": "You book directly with the Maringer family, without a booking portal and without an anonymous agency.",
-        "review3": "Price, minimum stay, amenities and location are stated openly on the website."
+        "subtitle": "Read every review unfiltered on Google. Here you'll see what booking directly with the Maringer family means.",
+        "aggregate": "Read all 21 reviews on Google →",
+        "pillar1_title": "Independently verifiable reviews",
+        "pillar1_text": "Direct link to Google. Read every guest comment unfiltered, in full length — nothing curated by us.",
+        "pillar2_title": "Booked directly with the family",
+        "pillar2_text": "No booking portal, no anonymous agency. Personal contact with the Maringer family — from your first inquiry to handing over the keys.",
+        "pillar3_title": "Transparent terms",
+        "pillar3_text": "Price, minimum stay, amenities and location are listed openly on the website. No hidden fees, no surprises at booking."
     },
     "map": {
         "h2": "How to find us",
